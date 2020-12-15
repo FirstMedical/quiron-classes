@@ -1,3 +1,5 @@
+import Rol from "./Rol";
+
 export default interface Usuario{
     identificacion: string,
     nombres: string,
@@ -5,6 +7,6 @@ export default interface Usuario{
     password: string,
     cambiar_password: boolean,
     no_informacion: boolean,
-    roles:[],
+    roles: Rol[],
     firma: string
 }
