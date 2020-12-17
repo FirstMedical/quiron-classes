@@ -1,5 +1,5 @@
-export default interface Rol{
-    identificador: string,
-    descripcion: string,
-    permisos: number
+export default class Rol {
+    identificador: string = "";
+    descripcion: string = "";
+    permisos: number = 0;
 }
