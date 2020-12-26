@@ -2,10 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c123c47c-07a8-49ed-9e66-e0a569adfb52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/entities/AccionOrdenTrabajo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/entities/AccionOrdenTrabajo.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/entities/AccionOrdenTrabajo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/entities/Equipo.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/entities/Equipo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/entities/Formulario.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/entities/Formulario.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/entities/OrdenTrabajo.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/entities/OrdenTrabajo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/entities/Rol.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/entities/Rol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/entities/Traza.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/entities/Traza.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/entities/Usuario.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/entities/Usuario.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/entities/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/entities/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/errors/Errores.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/errors/Errores.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/errors/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/errors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/Equipo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/Formulario.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/OrdenTrabajo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/Traza.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/errors/Errores.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/errors/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/Rol.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Rol.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/Usuario.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Usuario.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +54,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1liJzTZyxJPNpXXus4Ffqb3mCpn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -39,9 +73,15 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="D:\Repos\repos_quiron\quiron_classes\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Repos\repos_quiron\quiron_classes\errors" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,7 +93,10 @@
       <updated>1608074240591</updated>
       <workItem from="1608074243219" duration="139000" />
       <workItem from="1608160143950" duration="2284000" />
-      <workItem from="1608226777409" duration="341000" />
+      <workItem from="1608226777409" duration="1045000" />
+      <workItem from="1608227847015" duration="4055000" />
+      <workItem from="1608590829703" duration="2100000" />
+      <workItem from="1609020526917" duration="707000" />
     </task>
     <servers />
   </component>
@@ -71,5 +114,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

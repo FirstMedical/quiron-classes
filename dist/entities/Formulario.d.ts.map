@@ -1,0 +1,1 @@
+{"version":3,"file":"Formulario.d.ts","sourceRoot":"","sources":["../../entities/Formulario.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,WAAW,EAAE,YAAY,EAAC,MAAM,gBAAgB,CAAC;AAEzD,MAAM,CAAC,OAAO,OAAO,UAAU;IACpB,KAAK,EAAE,MAAM,CAAK;IAClB,sBAAsB,EAAE,WAAW,GAAG,YAAY,CAAuB;IACzE,SAAS,EAAE,GAAG,CAAC;CACzB"}
