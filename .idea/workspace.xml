@@ -3,8 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c123c47c-07a8-49ed-9e66-e0a569adfb52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errors/Errores.ts" beforeDir="false" afterPath="$PROJECT_DIR$/errors/Errores.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Usuario.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/entities/Usuario.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Usuario.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/entities/Usuario.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Usuario.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/entities/Usuario.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Usuario.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Usuario.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +75,7 @@
       <workItem from="1608227847015" duration="4055000" />
       <workItem from="1608590829703" duration="2100000" />
       <workItem from="1609020526917" duration="1001000" />
-      <workItem from="1609022542456" duration="1396000" />
+      <workItem from="1609022542456" duration="6689000" />
     </task>
     <servers />
   </component>

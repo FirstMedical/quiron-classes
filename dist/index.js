@@ -20,6 +20,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.errors = exports.entities = void 0;
+require("reflect-metadata");
 var entities = __importStar(require("./entities"));
 exports.entities = entities;
 var errors = __importStar(require("./errors"));
