@@ -1,4 +1,4 @@
-declare class ErrorPropietario extends Error {
+export declare class ErrorPropietario extends Error {
     code: number;
     status: number;
     constructor(message: string);
@@ -26,5 +26,4 @@ export declare class ErrorTokenInvalido extends ErrorPropietario {
  * @param {Object} error Error que llega desde el servidor
  */
 export declare function resolverError(error: any): ErrorPropietario;
-export {};
 //# sourceMappingURL=Errores.d.ts.map

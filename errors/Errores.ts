@@ -1,4 +1,4 @@
-class ErrorPropietario extends Error {
+export class ErrorPropietario extends Error {
     code: number;
     status: number;
 

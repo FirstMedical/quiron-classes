@@ -13,7 +13,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.resolverError = exports.ErrorTokenInvalido = exports.ErrorSinAutorizacion = exports.ErrorFaltaInformacion = exports.ErrorCambiarPass = exports.ErrorCredencialesIncorrectas = exports.ErrorUsuarioNoEncontrado = void 0;
+exports.resolverError = exports.ErrorTokenInvalido = exports.ErrorSinAutorizacion = exports.ErrorFaltaInformacion = exports.ErrorCambiarPass = exports.ErrorCredencialesIncorrectas = exports.ErrorUsuarioNoEncontrado = exports.ErrorPropietario = void 0;
 var ErrorPropietario = /** @class */ (function (_super) {
     __extends(ErrorPropietario, _super);
     function ErrorPropietario(message) {
@@ -24,6 +24,7 @@ var ErrorPropietario = /** @class */ (function (_super) {
     }
     return ErrorPropietario;
 }(Error));
+exports.ErrorPropietario = ErrorPropietario;
 var ErrorUsuarioNoEncontrado = /** @class */ (function (_super) {
     __extends(ErrorUsuarioNoEncontrado, _super);
     function ErrorUsuarioNoEncontrado() {
