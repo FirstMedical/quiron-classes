@@ -1,10 +1,20 @@
+export enum ErrorEnum {
+    "GENERICO",
+    "USUARIO_NO_ENCONTRADO",
+    "CREDENCIALES_INCORRECTAS",
+    "CAMBIO_PASS",
+    "FALTA_INFORMACION",
+    "SIN_AUTORIZACION",
+    "TOKEN_INVALIDO"
+}
+
 export class ErrorPropietario extends Error {
     code: number;
     status: number;
 
     constructor(message: string) {
         super(message);
-        this.code = 0;
+        this.code = ErrorEnum.GENERICO;
         this.status = 500;
     }
 }
@@ -13,7 +23,7 @@ export class ErrorUsuarioNoEncontrado extends ErrorPropietario {
     constructor() {
         super("Usuario no encontrado en la base de datos");
         this.name = "ErrorUsuarioNoEncontrado";
-        this.code = 1;
+        this.code = ErrorEnum.USUARIO_NO_ENCONTRADO;
         this.status = 404;
     }
 }
@@ -22,7 +32,7 @@ export class ErrorCredencialesIncorrectas extends ErrorPropietario {
     constructor() {
         super("Credenciales invalidas");
         this.name = "ErrorCredencialesIncorrectas";
-        this.code = 2;
+        this.code = ErrorEnum.CREDENCIALES_INCORRECTAS;
         this.status = 403;
     }
 }
@@ -31,7 +41,7 @@ export class ErrorCambiarPass extends ErrorPropietario {
     constructor() {
         super("El servidor ha solicitado cambiar su contraseña");
         this.name = "ErrorCambiarContraseña";
-        this.code = 3;
+        this.code = ErrorEnum.CAMBIO_PASS;
         this.status = 401;
     }
 }
@@ -40,7 +50,7 @@ export class ErrorFaltaInformacion extends ErrorPropietario {
     constructor() {
         super("El servidor ha solicitado completar informacion faltante en su perfil");
         this.name = "ErrorFaltaInformacion";
-        this.code = 4;
+        this.code = ErrorEnum.FALTA_INFORMACION;
         this.status = 401;
     }
 }
@@ -49,7 +59,7 @@ export class ErrorSinAutorizacion extends ErrorPropietario {
     constructor() {
         super("El usuario no esta autorizado para realizar la accion");
         this.name = "ErrorSinAutorizacion";
-        this.code = 5;
+        this.code = ErrorEnum.SIN_AUTORIZACION;
         this.status = 403;
     }
 }
@@ -58,7 +68,7 @@ export class ErrorTokenInvalido extends ErrorPropietario {
     constructor() {
         super("Token invalido enviado");
         this.name = "ErrorTokenInvalido";
-        this.code = 6;
+        this.code = ErrorEnum.TOKEN_INVALIDO;
         this.status = 403;
     }
 }
@@ -69,16 +79,18 @@ export class ErrorTokenInvalido extends ErrorPropietario {
  */
 export function resolverError(error: any) {
     switch (error.code) {
-        case 1:
+        case ErrorEnum.USUARIO_NO_ENCONTRADO:
             return new ErrorUsuarioNoEncontrado();
-        case 2:
+        case ErrorEnum.CREDENCIALES_INCORRECTAS:
             return new ErrorCredencialesIncorrectas();
-        case 3:
+        case ErrorEnum.CAMBIO_PASS:
             return new ErrorCambiarPass();
-        case 4:
+        case ErrorEnum.FALTA_INFORMACION:
             return new ErrorFaltaInformacion();
-        case 5:
+        case ErrorEnum.SIN_AUTORIZACION:
             return new ErrorSinAutorizacion();
+        case ErrorEnum.TOKEN_INVALIDO:
+            return new ErrorTokenInvalido();
         default:
             return new ErrorPropietario(error);
     }

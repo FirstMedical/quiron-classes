@@ -1,3 +1,12 @@
+export declare enum ErrorEnum {
+    "GENERICO" = 0,
+    "USUARIO_NO_ENCONTRADO" = 1,
+    "CREDENCIALES_INCORRECTAS" = 2,
+    "CAMBIO_PASS" = 3,
+    "FALTA_INFORMACION" = 4,
+    "SIN_AUTORIZACION" = 5,
+    "TOKEN_INVALIDO" = 6
+}
 export declare class ErrorPropietario extends Error {
     code: number;
     status: number;

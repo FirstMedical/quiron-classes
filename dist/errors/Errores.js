@@ -13,12 +13,22 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.resolverError = exports.ErrorTokenInvalido = exports.ErrorSinAutorizacion = exports.ErrorFaltaInformacion = exports.ErrorCambiarPass = exports.ErrorCredencialesIncorrectas = exports.ErrorUsuarioNoEncontrado = exports.ErrorPropietario = void 0;
+exports.resolverError = exports.ErrorTokenInvalido = exports.ErrorSinAutorizacion = exports.ErrorFaltaInformacion = exports.ErrorCambiarPass = exports.ErrorCredencialesIncorrectas = exports.ErrorUsuarioNoEncontrado = exports.ErrorPropietario = exports.ErrorEnum = void 0;
+var ErrorEnum;
+(function (ErrorEnum) {
+    ErrorEnum[ErrorEnum["GENERICO"] = 0] = "GENERICO";
+    ErrorEnum[ErrorEnum["USUARIO_NO_ENCONTRADO"] = 1] = "USUARIO_NO_ENCONTRADO";
+    ErrorEnum[ErrorEnum["CREDENCIALES_INCORRECTAS"] = 2] = "CREDENCIALES_INCORRECTAS";
+    ErrorEnum[ErrorEnum["CAMBIO_PASS"] = 3] = "CAMBIO_PASS";
+    ErrorEnum[ErrorEnum["FALTA_INFORMACION"] = 4] = "FALTA_INFORMACION";
+    ErrorEnum[ErrorEnum["SIN_AUTORIZACION"] = 5] = "SIN_AUTORIZACION";
+    ErrorEnum[ErrorEnum["TOKEN_INVALIDO"] = 6] = "TOKEN_INVALIDO";
+})(ErrorEnum = exports.ErrorEnum || (exports.ErrorEnum = {}));
 var ErrorPropietario = /** @class */ (function (_super) {
     __extends(ErrorPropietario, _super);
     function ErrorPropietario(message) {
         var _this = _super.call(this, message) || this;
-        _this.code = 0;
+        _this.code = ErrorEnum.GENERICO;
         _this.status = 500;
         return _this;
     }
@@ -30,7 +40,7 @@ var ErrorUsuarioNoEncontrado = /** @class */ (function (_super) {
     function ErrorUsuarioNoEncontrado() {
         var _this = _super.call(this, "Usuario no encontrado en la base de datos") || this;
         _this.name = "ErrorUsuarioNoEncontrado";
-        _this.code = 1;
+        _this.code = ErrorEnum.USUARIO_NO_ENCONTRADO;
         _this.status = 404;
         return _this;
     }
@@ -42,7 +52,7 @@ var ErrorCredencialesIncorrectas = /** @class */ (function (_super) {
     function ErrorCredencialesIncorrectas() {
         var _this = _super.call(this, "Credenciales invalidas") || this;
         _this.name = "ErrorCredencialesIncorrectas";
-        _this.code = 2;
+        _this.code = ErrorEnum.CREDENCIALES_INCORRECTAS;
         _this.status = 403;
         return _this;
     }
@@ -54,7 +64,7 @@ var ErrorCambiarPass = /** @class */ (function (_super) {
     function ErrorCambiarPass() {
         var _this = _super.call(this, "El servidor ha solicitado cambiar su contraseña") || this;
         _this.name = "ErrorCambiarContraseña";
-        _this.code = 3;
+        _this.code = ErrorEnum.CAMBIO_PASS;
         _this.status = 401;
         return _this;
     }
@@ -66,7 +76,7 @@ var ErrorFaltaInformacion = /** @class */ (function (_super) {
     function ErrorFaltaInformacion() {
         var _this = _super.call(this, "El servidor ha solicitado completar informacion faltante en su perfil") || this;
         _this.name = "ErrorFaltaInformacion";
-        _this.code = 4;
+        _this.code = ErrorEnum.FALTA_INFORMACION;
         _this.status = 401;
         return _this;
     }
@@ -78,7 +88,7 @@ var ErrorSinAutorizacion = /** @class */ (function (_super) {
     function ErrorSinAutorizacion() {
         var _this = _super.call(this, "El usuario no esta autorizado para realizar la accion") || this;
         _this.name = "ErrorSinAutorizacion";
-        _this.code = 5;
+        _this.code = ErrorEnum.SIN_AUTORIZACION;
         _this.status = 403;
         return _this;
     }
@@ -90,7 +100,7 @@ var ErrorTokenInvalido = /** @class */ (function (_super) {
     function ErrorTokenInvalido() {
         var _this = _super.call(this, "Token invalido enviado") || this;
         _this.name = "ErrorTokenInvalido";
-        _this.code = 6;
+        _this.code = ErrorEnum.TOKEN_INVALIDO;
         _this.status = 403;
         return _this;
     }
@@ -103,16 +113,18 @@ exports.ErrorTokenInvalido = ErrorTokenInvalido;
  */
 function resolverError(error) {
     switch (error.code) {
-        case 1:
+        case ErrorEnum.USUARIO_NO_ENCONTRADO:
             return new ErrorUsuarioNoEncontrado();
-        case 2:
+        case ErrorEnum.CREDENCIALES_INCORRECTAS:
             return new ErrorCredencialesIncorrectas();
-        case 3:
+        case ErrorEnum.CAMBIO_PASS:
             return new ErrorCambiarPass();
-        case 4:
+        case ErrorEnum.FALTA_INFORMACION:
             return new ErrorFaltaInformacion();
-        case 5:
+        case ErrorEnum.SIN_AUTORIZACION:
             return new ErrorSinAutorizacion();
+        case ErrorEnum.TOKEN_INVALIDO:
+            return new ErrorTokenInvalido();
         default:
             return new ErrorPropietario(error);
     }

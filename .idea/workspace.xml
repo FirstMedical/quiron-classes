@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c123c47c-07a8-49ed-9e66-e0a569adfb52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/errors/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/errors/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/errors/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/errors/index.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/errors/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/errors/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/errors/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/errors/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors/Errores.ts" beforeDir="false" afterPath="$PROJECT_DIR$/errors/Errores.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/errors/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/errors/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +66,16 @@
       <workItem from="1608590829703" duration="2100000" />
       <workItem from="1609020526917" duration="1001000" />
       <workItem from="1609022542456" duration="10611000" />
-      <workItem from="1610832778815" duration="1740000" />
+      <workItem from="1610832778815" duration="2870000" />
     </task>
+    <task id="LOCAL-00001" summary="Enumerador de errores.">
+      <created>1610839575321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610839575321</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,5 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Enumerador de errores." />
+    <option name="LAST_COMMIT_MESSAGE" value="Enumerador de errores." />
   </component>
 </project>
