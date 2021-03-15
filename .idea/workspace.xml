@@ -2,88 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c123c47c-07a8-49ed-9e66-e0a569adfb52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/campos/edicion/Campo.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/campos/edicion/Dependiente.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/campos/edicion/elementos/CampoChequeo.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/campos/edicion/elementos/CampoEntradaNumerica.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/campos/edicion/elementos/CampoEntradaTexto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/campos/edicion/elementos/CampoSeccion.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/campos/edicion/elementos/CampoSeleccion.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/campos/edicion/elementos/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/campos/edicion/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/campos/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/Campo.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/Campo.d.ts.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/Campo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/Campo.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/Dependiente.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/Dependiente.d.ts.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/Dependiente.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/Dependiente.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoChequeo.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoChequeo.d.ts.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoChequeo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoChequeo.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoEntradaNumerica.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoEntradaNumerica.d.ts.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoEntradaNumerica.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoEntradaNumerica.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoEntradaTexto.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoEntradaTexto.d.ts.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoEntradaTexto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoEntradaTexto.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoSeccion.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoSeccion.d.ts.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoSeccion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoSeccion.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoSeleccion.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoSeleccion.d.ts.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoSeleccion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoSeleccion.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/index.d.ts.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/index.d.ts.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/edicion/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/index.d.ts.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/campos/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/index.d.ts.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/entities/Plantilla.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/entities/Plantilla.d.ts.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/entities/Plantilla.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/entities/Plantilla.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entities/Plantilla.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/auxiliar/CacheCreationResponse.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/auxiliar/Cacheable.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/entities/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/entities/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/entities/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/entities/index.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/entities/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/entities/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/entities/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/entities/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/AccionOrdenTrabajo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/Equipo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/Formulario.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/OrdenTrabajo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/Rol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/Traza.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/Usuario.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errors/Errores.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/errors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Plantilla.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Plantilla.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +96,8 @@
       <workItem from="1610832778815" duration="4249000" />
       <workItem from="1613869549789" duration="616000" />
       <workItem from="1615766409612" duration="9443000" />
-      <workItem from="1615776862492" duration="1087000" />
+      <workItem from="1615776862492" duration="1544000" />
+      <workItem from="1615851215578" duration="546000" />
     </task>
     <task id="LOCAL-00001" summary="Enumerador de errores.">
       <created>1610839575321</created>
