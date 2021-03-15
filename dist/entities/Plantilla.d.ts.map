@@ -1,0 +1,1 @@
+{"version":3,"file":"Plantilla.d.ts","sourceRoot":"","sources":["../../entities/Plantilla.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,YAAY,EAAC,MAAM,wCAAwC,CAAC;AAGpE,MAAM,CAAC,OAAO,OAAO,SAAS;IAC1B,aAAa,EAAE,MAAM,CAAM;IAC3B,MAAM,EAAE,MAAM,CAAM;IACpB,OAAO,EAAE,MAAM,CAAK;IAEpB,MAAM,EAAG,YAAY,CAAC;IAEtB,YAAY,EAAE,SAAS,EAAE,CAAM;CAClC"}

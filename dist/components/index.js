@@ -19,22 +19,6 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.errors = exports.entities = void 0;
-require("reflect-metadata");
-var entities = __importStar(require("./entities"));
-exports.entities = entities;
-var errors = __importStar(require("./errors"));
-exports.errors = errors;
-var elementos_1 = require("./components/campos/edicion/elementos");
-var edicion_1 = require("./components/campos/edicion");
-var class_transformer_1 = require("class-transformer");
-var texto = new elementos_1.CampoEntradaTexto('texto', new edicion_1.Dependiente());
-var check = new elementos_1.CampoChequeo('chequeo', new edicion_1.Dependiente(), ['1', '2', '3']);
-var seccion = new elementos_1.CampoSeccion('seccion', new edicion_1.Dependiente(), [texto, check]);
-console.log(seccion);
-//const json = classToPlain(seccion);
-var json = JSON.parse(JSON.stringify(seccion));
-console.log(json);
-var reconstructed = class_transformer_1.plainToClass(elementos_1.CampoSeccion, json);
-console.log(reconstructed.elementos);
+exports.campos = void 0;
+exports.campos = __importStar(require("./campos"));
 //# sourceMappingURL=index.js.map

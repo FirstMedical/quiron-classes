@@ -5,6 +5,7 @@ import OrdenTrabajo from "./OrdenTrabajo";
 import Rol from "./Rol";
 import Formulario from "./Formulario";
 import Traza from "./Traza";
+import Plantilla from "./Plantilla";
 
 export {
     AccionOrdenTrabajo,
@@ -13,5 +14,6 @@ export {
     Formulario,
     Rol,
     OrdenTrabajo,
-    Usuario
+    Usuario,
+    Plantilla
 }

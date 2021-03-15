@@ -5,5 +5,6 @@ import OrdenTrabajo from "./OrdenTrabajo";
 import Rol from "./Rol";
 import Formulario from "./Formulario";
 import Traza from "./Traza";
-export { AccionOrdenTrabajo, Equipo, Traza, Formulario, Rol, OrdenTrabajo, Usuario };
+import Plantilla from "./Plantilla";
+export { AccionOrdenTrabajo, Equipo, Traza, Formulario, Rol, OrdenTrabajo, Usuario, Plantilla };
 //# sourceMappingURL=index.d.ts.map
