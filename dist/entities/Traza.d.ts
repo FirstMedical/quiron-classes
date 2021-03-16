@@ -11,5 +11,6 @@ export default class Traza extends DBEntity {
     encargado: Usuario;
     /** Fecha y hora en la que se realizó la accion trazada */
     fecha: number;
+    constructor(ot?: OrdenTrabajo, accion?: AccionOrdenTrabajo, encargado?: Usuario, fecha?: number);
 }
 //# sourceMappingURL=Traza.d.ts.map

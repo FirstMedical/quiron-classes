@@ -9,4 +9,12 @@ export default class AccionOrdenTrabajo extends DBEntity{
     nombre: string = "";
     /** Descripcion de la accion realizada */
     descripcion: string = "";
+
+    constructor(uuid?: string, codigo?: string, nombre?: string, descripcion?: string) {
+        super();
+        this.uuid = uuid? uuid : "";
+        this.codigo = codigo? codigo : "";
+        this.nombre = nombre? nombre : "";
+        this.descripcion = descripcion? descripcion : "";
+    }
 }

@@ -30,8 +30,8 @@ var class_transformer_1 = require("class-transformer");
 var DBEntity_1 = __importDefault(require("./auxiliar/DBEntity"));
 var Usuario = /** @class */ (function (_super) {
     __extends(Usuario, _super);
-    function Usuario() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
+    function Usuario(identificacion, nombres, apellidos, password, cambiar_password, no_informacion, roles, firma) {
+        var _this = _super.call(this) || this;
         _this.identificacion = "";
         _this.nombres = "";
         _this.apellidos = "";
@@ -40,6 +40,14 @@ var Usuario = /** @class */ (function (_super) {
         _this.no_informacion = false;
         _this.roles = [];
         _this.firma = "";
+        _this.identificacion = identificacion ? identificacion : "";
+        _this.nombres = nombres ? nombres : "";
+        _this.apellidos = apellidos ? apellidos : "";
+        _this.password = password ? password : "";
+        _this.cambiar_password = cambiar_password ? cambiar_password : false;
+        _this.no_informacion = no_informacion ? no_informacion : false;
+        _this.roles = roles ? roles : [];
+        _this.firma = firma ? firma : "";
         return _this;
     }
     __decorate([

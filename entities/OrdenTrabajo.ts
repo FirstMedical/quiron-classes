@@ -54,4 +54,17 @@ export default class OrdenTrabajo extends DBEntity{
     public estado: ESTADOS_SEDE | ESTADOS_RTS = ESTADOS_SEDE.CREADA;
     public trazas: Traza[] = [];
     public formularios: Formulario[] = [];
+
+
+    constructor(creador?: Usuario, equipo?: Equipo, tipo_servicio?: any, fecha?: number, tipo_sede?: TIPO_OT, estado?: ESTADOS_SEDE | ESTADOS_RTS, trazas?: Traza[], formularios?: Formulario[]) {
+        super();
+        this.creador = creador? creador : new Usuario();
+        this.equipo = equipo? equipo : new Equipo();
+        this.tipo_servicio = tipo_servicio;
+        this.fecha = fecha? fecha : 0;
+        this.tipo_sede = tipo_sede? tipo_sede : TIPO_OT.SEDE;
+        this.estado = estado ? estado : ESTADOS_SEDE.CREADA;
+        this.trazas = trazas? trazas : [];
+        this.formularios = formularios? formularios : [];
+    }
 }

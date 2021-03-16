@@ -34,5 +34,6 @@ export default class OrdenTrabajo extends DBEntity {
     estado: ESTADOS_SEDE | ESTADOS_RTS;
     trazas: Traza[];
     formularios: Formulario[];
+    constructor(creador?: Usuario, equipo?: Equipo, tipo_servicio?: any, fecha?: number, tipo_sede?: TIPO_OT, estado?: ESTADOS_SEDE | ESTADOS_RTS, trazas?: Traza[], formularios?: Formulario[]);
 }
 //# sourceMappingURL=OrdenTrabajo.d.ts.map

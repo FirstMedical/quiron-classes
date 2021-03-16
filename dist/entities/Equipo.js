@@ -19,11 +19,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var DBEntity_1 = __importDefault(require("./auxiliar/DBEntity"));
 var Equipo = /** @class */ (function (_super) {
     __extends(Equipo, _super);
-    function Equipo() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
+    function Equipo(serial, marca, ots) {
+        var _this = _super.call(this) || this;
         _this.serial = "";
         _this.marca = "";
         _this.ots = [];
+        _this.serial = serial ? serial : "";
+        _this.marca = marca ? marca : "";
+        _this.ots = ots ? ots : [];
         return _this;
     }
     return Equipo;

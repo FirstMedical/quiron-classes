@@ -19,8 +19,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var DBEntity_1 = __importDefault(require("./auxiliar/DBEntity"));
 var AccionOrdenTrabajo = /** @class */ (function (_super) {
     __extends(AccionOrdenTrabajo, _super);
-    function AccionOrdenTrabajo() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
+    function AccionOrdenTrabajo(uuid, codigo, nombre, descripcion) {
+        var _this = _super.call(this) || this;
         /** String de codigo unico de la orden de trabajo */
         _this.uuid = "";
         /** Codigo humano asignado a la orden de trabajo */
@@ -29,6 +29,10 @@ var AccionOrdenTrabajo = /** @class */ (function (_super) {
         _this.nombre = "";
         /** Descripcion de la accion realizada */
         _this.descripcion = "";
+        _this.uuid = uuid ? uuid : "";
+        _this.codigo = codigo ? codigo : "";
+        _this.nombre = nombre ? nombre : "";
+        _this.descripcion = descripcion ? descripcion : "";
         return _this;
     }
     return AccionOrdenTrabajo;

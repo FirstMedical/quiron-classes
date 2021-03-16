@@ -30,12 +30,17 @@ var class_transformer_1 = require("class-transformer");
 var Cacheable_1 = __importDefault(require("./auxiliar/Cacheable"));
 var Plantilla = /** @class */ (function (_super) {
     __extends(Plantilla, _super);
-    function Plantilla() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
+    function Plantilla(identificador, serial, version, modelo, relacionadas) {
+        var _this = _super.call(this) || this;
         _this.identificador = "";
         _this.serial = "";
         _this.version = 1;
         _this.relacionadas = [];
+        _this.identificador = identificador ? identificador : "";
+        _this.serial = serial ? serial : "";
+        _this.version = version ? version : 1;
+        _this.modelo = modelo ? modelo : new elementos_1.CampoSeccion();
+        _this.relacionadas = relacionadas ? relacionadas : [];
         return _this;
     }
     __decorate([

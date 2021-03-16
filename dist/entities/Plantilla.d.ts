@@ -6,5 +6,6 @@ export default class Plantilla extends Cacheable {
     version: number;
     modelo: CampoSeccion;
     relacionadas: Plantilla[];
+    constructor(identificador?: string, serial?: string, version?: number, modelo?: CampoSeccion, relacionadas?: Plantilla[]);
 }
 //# sourceMappingURL=Plantilla.d.ts.map

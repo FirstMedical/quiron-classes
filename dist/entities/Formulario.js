@@ -20,10 +20,13 @@ var OrdenTrabajo_1 = require("./OrdenTrabajo");
 var DBEntity_1 = __importDefault(require("./auxiliar/DBEntity"));
 var Formulario = /** @class */ (function (_super) {
     __extends(Formulario, _super);
-    function Formulario() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
+    function Formulario(fecha, estado_correspondiente, documento) {
+        var _this = _super.call(this) || this;
         _this.fecha = 0;
         _this.estado_correspondiente = OrdenTrabajo_1.ESTADOS_SEDE.CREADA;
+        _this.fecha = fecha ? fecha : 0;
+        _this.estado_correspondiente = estado_correspondiente ? estado_correspondiente : OrdenTrabajo_1.ESTADOS_SEDE.CREADA;
+        _this.documento = documento;
         return _this;
     }
     return Formulario;

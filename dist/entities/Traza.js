@@ -22,8 +22,8 @@ var Usuario_1 = __importDefault(require("./Usuario"));
 var DBEntity_1 = __importDefault(require("./auxiliar/DBEntity"));
 var Traza = /** @class */ (function (_super) {
     __extends(Traza, _super);
-    function Traza() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
+    function Traza(ot, accion, encargado, fecha) {
+        var _this = _super.call(this) || this;
         /** Orden de trabajo a la que pertenece la traza */
         _this.ot = new OrdenTrabajo_1.default();
         /** Accion que se realiza sobre el equipo */
@@ -32,6 +32,10 @@ var Traza = /** @class */ (function (_super) {
         _this.encargado = new Usuario_1.default();
         /** Fecha y hora en la que se realizó la accion trazada */
         _this.fecha = 0;
+        _this.ot = ot ? ot : new OrdenTrabajo_1.default();
+        _this.accion = accion ? accion : new AccionOrdenTrabajo_1.default();
+        _this.encargado = encargado ? encargado : new Usuario_1.default();
+        _this.fecha = fecha ? fecha : 0;
         return _this;
     }
     return Traza;

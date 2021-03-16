@@ -8,5 +8,6 @@ export default class AccionOrdenTrabajo extends DBEntity {
     nombre: string;
     /** Descripcion de la accion realizada */
     descripcion: string;
+    constructor(uuid?: string, codigo?: string, nombre?: string, descripcion?: string);
 }
 //# sourceMappingURL=AccionOrdenTrabajo.d.ts.map

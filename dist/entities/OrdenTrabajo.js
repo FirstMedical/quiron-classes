@@ -64,8 +64,8 @@ exports.ESTADOS_RTS_NOMBRE = [
 ];
 var OrdenTrabajo = /** @class */ (function (_super) {
     __extends(OrdenTrabajo, _super);
-    function OrdenTrabajo() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
+    function OrdenTrabajo(creador, equipo, tipo_servicio, fecha, tipo_sede, estado, trazas, formularios) {
+        var _this = _super.call(this) || this;
         _this.creador = new Usuario_1.default();
         _this.equipo = new Equipo_1.default();
         _this.fecha = 0;
@@ -73,6 +73,14 @@ var OrdenTrabajo = /** @class */ (function (_super) {
         _this.estado = ESTADOS_SEDE.CREADA;
         _this.trazas = [];
         _this.formularios = [];
+        _this.creador = creador ? creador : new Usuario_1.default();
+        _this.equipo = equipo ? equipo : new Equipo_1.default();
+        _this.tipo_servicio = tipo_servicio;
+        _this.fecha = fecha ? fecha : 0;
+        _this.tipo_sede = tipo_sede ? tipo_sede : TIPO_OT.SEDE;
+        _this.estado = estado ? estado : ESTADOS_SEDE.CREADA;
+        _this.trazas = trazas ? trazas : [];
+        _this.formularios = formularios ? formularios : [];
         return _this;
     }
     return OrdenTrabajo;
