@@ -1,4 +1,17 @@
 "use strict";
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -14,16 +27,20 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var Rol_1 = __importDefault(require("./Rol"));
 var class_transformer_1 = require("class-transformer");
-var Usuario = /** @class */ (function () {
+var DBEntity_1 = __importDefault(require("./auxiliar/DBEntity"));
+var Usuario = /** @class */ (function (_super) {
+    __extends(Usuario, _super);
     function Usuario() {
-        this.identificacion = "";
-        this.nombres = "";
-        this.apellidos = "";
-        this.password = "";
-        this.cambiar_password = false;
-        this.no_informacion = false;
-        this.roles = [];
-        this.firma = "";
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.identificacion = "";
+        _this.nombres = "";
+        _this.apellidos = "";
+        _this.password = "";
+        _this.cambiar_password = false;
+        _this.no_informacion = false;
+        _this.roles = [];
+        _this.firma = "";
+        return _this;
     }
     __decorate([
         class_transformer_1.Exclude(),
@@ -34,6 +51,6 @@ var Usuario = /** @class */ (function () {
         __metadata("design:type", Array)
     ], Usuario.prototype, "roles", void 0);
     return Usuario;
-}());
+}(DBEntity_1.default));
 exports.default = Usuario;
 //# sourceMappingURL=Usuario.js.map

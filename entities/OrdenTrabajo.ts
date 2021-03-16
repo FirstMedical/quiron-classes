@@ -2,6 +2,7 @@ import Usuario from "./Usuario";
 import Equipo from "./Equipo";
 import Traza from "./Traza";
 import Formulario from "./Formulario";
+import DBEntity from "./auxiliar/DBEntity";
 
 export enum TIPO_OT {
     "SEDE",
@@ -44,7 +45,7 @@ export const ESTADOS_RTS_NOMBRE: string[] = [
     "FINALIZADA"
 ];
 
-export default class OrdenTrabajo {
+export default class OrdenTrabajo extends DBEntity{
     creador: Usuario = new Usuario();
     equipo: Equipo = new Equipo();
     tipo_servicio: any;

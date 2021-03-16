@@ -1,5 +1,6 @@
 import Rol from "./Rol";
-export default class Usuario {
+import DBEntity from "./auxiliar/DBEntity";
+export default class Usuario extends DBEntity {
     identificacion: string;
     nombres: string;
     apellidos: string;

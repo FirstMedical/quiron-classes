@@ -1,2 +1,4 @@
-export default class Cacheable{
+import DBEntity from "./DBEntity";
+
+export default class Cacheable extends DBEntity{
 }

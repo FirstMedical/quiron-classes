@@ -1,1 +1,1 @@
-{"version":3,"file":"Rol.js","sourceRoot":"","sources":["../../entities/Rol.ts"],"names":[],"mappings":";;AAAA;IAAA;QACI,kBAAa,GAAW,EAAE,CAAC;QAC3B,gBAAW,GAAW,EAAE,CAAC;QACzB,aAAQ,GAAW,CAAC,CAAC;IACzB,CAAC;IAAD,UAAC;AAAD,CAAC,AAJD,IAIC"}
+{"version":3,"file":"Rol.js","sourceRoot":"","sources":["../../entities/Rol.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;AAAA,iEAA2C;AAE3C;IAAiC,uBAAQ;IAAzC;QAAA,qEAIC;QAHG,mBAAa,GAAW,EAAE,CAAC;QAC3B,iBAAW,GAAW,EAAE,CAAC;QACzB,cAAQ,GAAW,CAAC,CAAC;;IACzB,CAAC;IAAD,UAAC;AAAD,CAAC,AAJD,CAAiC,kBAAQ,GAIxC"}

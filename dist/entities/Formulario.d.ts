@@ -1,5 +1,6 @@
 import { ESTADOS_RTS, ESTADOS_SEDE } from "./OrdenTrabajo";
-export default class Formulario {
+import DBEntity from "./auxiliar/DBEntity";
+export default class Formulario extends DBEntity {
     fecha: number;
     estado_correspondiente: ESTADOS_RTS | ESTADOS_SEDE;
     documento: any;

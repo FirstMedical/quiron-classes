@@ -1,1 +1,1 @@
-{"version":3,"file":"Formulario.js","sourceRoot":"","sources":["../../entities/Formulario.ts"],"names":[],"mappings":";;AAAA,+CAAyD;AAEzD;IAAA;QACW,UAAK,GAAW,CAAC,CAAC;QAClB,2BAAsB,GAA+B,2BAAY,CAAC,MAAM,CAAC;IAEpF,CAAC;IAAD,iBAAC;AAAD,CAAC,AAJD,IAIC"}
+{"version":3,"file":"Formulario.js","sourceRoot":"","sources":["../../entities/Formulario.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;AAAA,+CAAyD;AACzD,iEAA2C;AAE3C;IAAwC,8BAAQ;IAAhD;QAAA,qEAIC;QAHU,WAAK,GAAW,CAAC,CAAC;QAClB,4BAAsB,GAA+B,2BAAY,CAAC,MAAM,CAAC;;IAEpF,CAAC;IAAD,iBAAC;AAAD,CAAC,AAJD,CAAwC,kBAAQ,GAI/C"}

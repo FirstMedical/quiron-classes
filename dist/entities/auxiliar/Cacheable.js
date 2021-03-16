@@ -16,17 +16,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var OrdenTrabajo_1 = require("./OrdenTrabajo");
-var DBEntity_1 = __importDefault(require("./auxiliar/DBEntity"));
-var Formulario = /** @class */ (function (_super) {
-    __extends(Formulario, _super);
-    function Formulario() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.fecha = 0;
-        _this.estado_correspondiente = OrdenTrabajo_1.ESTADOS_SEDE.CREADA;
-        return _this;
+var DBEntity_1 = __importDefault(require("./DBEntity"));
+var Cacheable = /** @class */ (function (_super) {
+    __extends(Cacheable, _super);
+    function Cacheable() {
+        return _super !== null && _super.apply(this, arguments) || this;
     }
-    return Formulario;
+    return Cacheable;
 }(DBEntity_1.default));
-exports.default = Formulario;
-//# sourceMappingURL=Formulario.js.map
+exports.default = Cacheable;
+//# sourceMappingURL=Cacheable.js.map

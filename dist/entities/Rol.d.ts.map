@@ -1,1 +1,1 @@
-{"version":3,"file":"Rol.d.ts","sourceRoot":"","sources":["../../entities/Rol.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,OAAO,OAAO,GAAG;IACpB,aAAa,EAAE,MAAM,CAAM;IAC3B,WAAW,EAAE,MAAM,CAAM;IACzB,QAAQ,EAAE,MAAM,CAAK;CACxB"}
+{"version":3,"file":"Rol.d.ts","sourceRoot":"","sources":["../../entities/Rol.ts"],"names":[],"mappings":"AAAA,OAAO,QAAQ,MAAM,qBAAqB,CAAC;AAE3C,MAAM,CAAC,OAAO,OAAO,GAAI,SAAQ,QAAQ;IACrC,aAAa,EAAE,MAAM,CAAM;IAC3B,WAAW,EAAE,MAAM,CAAM;IACzB,QAAQ,EAAE,MAAM,CAAK;CACxB"}

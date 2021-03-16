@@ -1,5 +1,6 @@
 import OrdenTrabajo from "./OrdenTrabajo";
-export default class Equipo {
+import DBEntity from "./auxiliar/DBEntity";
+export default class Equipo extends DBEntity {
     serial: string;
     marca: string;
     ots: OrdenTrabajo[];

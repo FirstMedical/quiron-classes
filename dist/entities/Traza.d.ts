@@ -1,7 +1,8 @@
 import OrdenTrabajo from "./OrdenTrabajo";
 import AccionOrdenTrabajo from "./AccionOrdenTrabajo";
 import Usuario from "./Usuario";
-export default class Traza {
+import DBEntity from "./auxiliar/DBEntity";
+export default class Traza extends DBEntity {
     /** Orden de trabajo a la que pertenece la traza */
     ot: OrdenTrabajo;
     /** Accion que se realiza sobre el equipo */

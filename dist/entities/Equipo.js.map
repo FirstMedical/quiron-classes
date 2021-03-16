@@ -1,1 +1,1 @@
-{"version":3,"file":"Equipo.js","sourceRoot":"","sources":["../../entities/Equipo.ts"],"names":[],"mappings":";;AAEA;IAAA;QACI,WAAM,GAAW,EAAE,CAAC;QACpB,UAAK,GAAW,EAAE,CAAC;QACnB,QAAG,GAAmB,EAAE,CAAC;IAC7B,CAAC;IAAD,aAAC;AAAD,CAAC,AAJD,IAIC"}
+{"version":3,"file":"Equipo.js","sourceRoot":"","sources":["../../entities/Equipo.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;AACA,iEAA2C;AAE3C;IAAoC,0BAAQ;IAA5C;QAAA,qEAIC;QAHG,YAAM,GAAW,EAAE,CAAC;QACpB,WAAK,GAAW,EAAE,CAAC;QACnB,SAAG,GAAmB,EAAE,CAAC;;IAC7B,CAAC;IAAD,aAAC;AAAD,CAAC,AAJD,CAAoC,kBAAQ,GAI3C"}

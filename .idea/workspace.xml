@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c123c47c-07a8-49ed-9e66-e0a569adfb52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/entities/auxiliar/DBEntity.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/auxiliar/CacheCreationResponse.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/auxiliar/CacheCreationResponse.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/AccionOrdenTrabajo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/AccionOrdenTrabajo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Equipo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Equipo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Formulario.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Formulario.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/OrdenTrabajo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/OrdenTrabajo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Rol.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Rol.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Traza.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Traza.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Usuario.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Usuario.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/auxiliar/Cacheable.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/auxiliar/Cacheable.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +103,7 @@
       <workItem from="1613869549789" duration="616000" />
       <workItem from="1615766409612" duration="9443000" />
       <workItem from="1615776862492" duration="1544000" />
-      <workItem from="1615851215578" duration="694000" />
+      <workItem from="1615851215578" duration="1646000" />
     </task>
     <task id="LOCAL-00001" summary="Enumerador de errores.">
       <created>1610839575321</created>
