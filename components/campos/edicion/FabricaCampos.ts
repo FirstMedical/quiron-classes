@@ -1,10 +1,11 @@
-import {CampoChequeo, CampoEntradaNumerica, CampoEntradaTexto, CampoSeccion, CampoSeleccion} from "./elementos";
-import {CampoTabla} from "./elementos/CampoTabla";
-import {CampoTablaCompuesta} from "./elementos/CampoTablaCompuesta";
-import {CampoParametro} from "./elementos/CampoParametro";
-import {CampoFecha} from "./elementos/CampoFecha";
-import {CampoFirma} from "./elementos/CampoFirma";
-import {CampoImagen} from "./elementos/CampoImagen";
+import {
+    CampoChequeo,
+    CampoEntradaNumerica,
+    CampoEntradaTexto, CampoFecha, CampoFirma, CampoImagen, CampoParametro,
+    CampoSeccion,
+    CampoSeleccion,
+    CampoTabla, CampoTablaCompuesta
+} from "./elementos";
 import {TiposElementos} from "../index";
 import {Campo} from "./Campo";
 

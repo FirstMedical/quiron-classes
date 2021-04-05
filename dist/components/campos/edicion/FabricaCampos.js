@@ -2,12 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.FabricaCampos = void 0;
 var elementos_1 = require("./elementos");
-var CampoTabla_1 = require("./elementos/CampoTabla");
-var CampoTablaCompuesta_1 = require("./elementos/CampoTablaCompuesta");
-var CampoParametro_1 = require("./elementos/CampoParametro");
-var CampoFecha_1 = require("./elementos/CampoFecha");
-var CampoFirma_1 = require("./elementos/CampoFirma");
-var CampoImagen_1 = require("./elementos/CampoImagen");
 var FabricaCampos = /** @class */ (function () {
     function FabricaCampos() {
     }
@@ -29,12 +23,12 @@ var FabricaCampos = /** @class */ (function () {
         seccion: elementos_1.CampoSeccion,
         chequeo: elementos_1.CampoChequeo,
         seleccion: elementos_1.CampoSeleccion,
-        tabla: CampoTabla_1.CampoTabla,
-        'tabla-compuesta': CampoTablaCompuesta_1.CampoTablaCompuesta,
-        parametro: CampoParametro_1.CampoParametro,
-        fecha: CampoFecha_1.CampoFecha,
-        firma: CampoFirma_1.CampoFirma,
-        imagen: CampoImagen_1.CampoImagen
+        tabla: elementos_1.CampoTabla,
+        'tabla-compuesta': elementos_1.CampoTablaCompuesta,
+        parametro: elementos_1.CampoParametro,
+        fecha: elementos_1.CampoFecha,
+        firma: elementos_1.CampoFirma,
+        imagen: elementos_1.CampoImagen
     };
     return FabricaCampos;
 }());

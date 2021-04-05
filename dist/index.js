@@ -19,10 +19,10 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.errors = exports.entities = void 0;
+exports.errors = exports.entities = exports.components = void 0;
 require("reflect-metadata");
-var entities = __importStar(require("./entities"));
-exports.entities = entities;
-var errors = __importStar(require("./errors"));
-exports.errors = errors;
+exports.components = __importStar(require("./components"));
+exports.entities = __importStar(require("./entities"));
+exports.errors = __importStar(require("./errors"));
+//console.log(FabricaCampos.fabricarCampoConEtiqueta(TiposElementos.seccion, "raiz"));
 //# sourceMappingURL=index.js.map

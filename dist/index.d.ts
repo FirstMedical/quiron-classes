@@ -1,5 +1,5 @@
 import 'reflect-metadata';
-import * as entities from './entities';
-import * as errors from './errors';
-export { entities, errors };
+export * as components from './components';
+export * as entities from './entities';
+export * as errors from './errors';
 //# sourceMappingURL=index.d.ts.map
