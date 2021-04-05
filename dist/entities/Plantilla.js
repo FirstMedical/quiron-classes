@@ -39,7 +39,7 @@ var Plantilla = /** @class */ (function (_super) {
         _this.identificador = identificador ? identificador : "";
         _this.serial = serial ? serial : "";
         _this.version = version ? version : 1;
-        _this.modelo = modelo ? modelo : new elementos_1.CampoSeccion();
+        _this.modelo = modelo ? modelo : new elementos_1.CampoSeccion("raiz");
         _this.relacionadas = relacionadas ? relacionadas : [];
         return _this;
     }

@@ -8,6 +8,7 @@ export class Campo {
     @Type(()=>Dependiente)
     dependiente: Dependiente;
 
+
     constructor(elemento?: TiposElementos, etiqueta?: string, dependiente?: Dependiente) {
         this.elemento = elemento ? elemento : TiposElementos.seccion;
         this.etiqueta = etiqueta ? etiqueta : '';

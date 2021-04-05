@@ -6,22 +6,22 @@ import {CampoSeccion , CampoEntradaTexto, CampoChequeo} from "./components/campo
 import {Dependiente} from "./components/campos/edicion";
 import {classToPlain, plainToClass, serialize} from "class-transformer";
 
-const texto = new CampoEntradaTexto('texto', new Dependiente());
-const check = new CampoChequeo('chequeo', new Dependiente(), ['1', '2', '3']);
-
-const seccion = new CampoSeccion('seccion', new Dependiente(), [texto, check]);
-
-console.log(seccion);
-
-//const json = classToPlain(seccion);
-
-const json = JSON.parse(JSON.stringify(seccion));
-
-console.log(json);
-
-const reconstructed = <CampoSeccion><unknown>plainToClass<CampoSeccion, any>(CampoSeccion, json);
-
-console.log(reconstructed.elementos);
+// const texto = new CampoEntradaTexto('texto', new Dependiente());
+// const check = new CampoChequeo('chequeo', new Dependiente(), ['1', '2', '3']);
+//
+// const seccion = new CampoSeccion('seccion', new Dependiente(), [texto, check]);
+//
+// console.log(seccion);
+//
+// //const json = classToPlain(seccion);
+//
+// const json = JSON.parse(JSON.stringify(seccion));
+//
+// console.log(json);
+//
+// const reconstructed = <CampoSeccion><unknown>plainToClass<CampoSeccion, any>(CampoSeccion, json);
+//
+// console.log(reconstructed.elementos);
 
 export {
     entities,

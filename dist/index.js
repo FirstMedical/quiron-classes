@@ -25,16 +25,4 @@ var entities = __importStar(require("./entities"));
 exports.entities = entities;
 var errors = __importStar(require("./errors"));
 exports.errors = errors;
-var elementos_1 = require("./components/campos/edicion/elementos");
-var edicion_1 = require("./components/campos/edicion");
-var class_transformer_1 = require("class-transformer");
-var texto = new elementos_1.CampoEntradaTexto('texto', new edicion_1.Dependiente());
-var check = new elementos_1.CampoChequeo('chequeo', new edicion_1.Dependiente(), ['1', '2', '3']);
-var seccion = new elementos_1.CampoSeccion('seccion', new edicion_1.Dependiente(), [texto, check]);
-console.log(seccion);
-//const json = classToPlain(seccion);
-var json = JSON.parse(JSON.stringify(seccion));
-console.log(json);
-var reconstructed = class_transformer_1.plainToClass(elementos_1.CampoSeccion, json);
-console.log(reconstructed.elementos);
 //# sourceMappingURL=index.js.map

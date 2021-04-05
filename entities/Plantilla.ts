@@ -16,7 +16,7 @@ export default class Plantilla extends Cacheable{
         this.identificador = identificador? identificador : "";
         this.serial = serial? serial : "";
         this.version = version? version : 1;
-        this.modelo = modelo? modelo : new CampoSeccion();
+        this.modelo = modelo? modelo : new CampoSeccion("raiz");
         this.relacionadas = relacionadas? relacionadas : [];
     }
 }
