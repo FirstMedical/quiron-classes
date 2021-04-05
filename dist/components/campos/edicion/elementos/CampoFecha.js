@@ -28,11 +28,12 @@ var DiccionarioDateType;
 })(DiccionarioDateType = exports.DiccionarioDateType || (exports.DiccionarioDateType = {}));
 var CampoFecha = /** @class */ (function (_super) {
     __extends(CampoFecha, _super);
-    function CampoFecha(etiqueta, dependiente, date_type, date, hour) {
+    function CampoFecha(etiqueta, dependiente, date_type, date, hour, format) {
         var _this = _super.call(this, index_1.TiposElementos.fecha, etiqueta, dependiente) || this;
         _this.date_type = date_type ? date_type : DateType.implicit;
         _this.date = date ? date : false;
         _this.hour = hour ? hour : false;
+        _this.format = format ? format : 'DD-MM-AAAA';
         return _this;
     }
     return CampoFecha;
