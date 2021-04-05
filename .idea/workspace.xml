@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c123c47c-07a8-49ed-9e66-e0a569adfb52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/components/campos/edicion/Campo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/campos/edicion/Campo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <workItem from="1615911649533" duration="2492000" />
       <workItem from="1616544445222" duration="685000" />
       <workItem from="1617576638822" duration="17000" />
-      <workItem from="1617576688537" duration="7992000" />
+      <workItem from="1617576688537" duration="8459000" />
     </task>
     <task id="LOCAL-00001" summary="Enumerador de errores.">
       <created>1610839575321</created>
