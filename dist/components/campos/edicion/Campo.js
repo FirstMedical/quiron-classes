@@ -14,7 +14,8 @@ var index_1 = require("../index");
 var Dependiente_1 = require("./Dependiente");
 var class_transformer_1 = require("class-transformer");
 var Campo = /** @class */ (function () {
-    function Campo(elemento, etiqueta, dependiente) {
+    function Campo(elemento, etiqueta, dependiente, uid) {
+        this.uid = uid ? uid : etiqueta ? etiqueta : '';
         this.elemento = elemento ? elemento : index_1.TiposElementos.seccion;
         this.etiqueta = etiqueta ? etiqueta : '';
         this.dependiente = dependiente ? dependiente : new Dependiente_1.Dependiente();
