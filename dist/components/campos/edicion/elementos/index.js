@@ -15,4 +15,10 @@ __exportStar(require("./CampoEntradaTexto"), exports);
 __exportStar(require("./CampoEntradaNumerica"), exports);
 __exportStar(require("./CampoChequeo"), exports);
 __exportStar(require("./CampoSeleccion"), exports);
+__exportStar(require("./CampoFecha"), exports);
+__exportStar(require("./CampoFirma"), exports);
+__exportStar(require("./CampoImagen"), exports);
+__exportStar(require("./CampoParametro"), exports);
+__exportStar(require("./CampoTabla"), exports);
+__exportStar(require("./CampoTablaCompuesta"), exports);
 //# sourceMappingURL=index.js.map
