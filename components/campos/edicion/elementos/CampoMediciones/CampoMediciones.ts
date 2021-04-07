@@ -7,7 +7,7 @@ export class CampoMediciones extends Campo {
 
     medidas: Medida[];
     etiquetaMedida: string;
-    private medidasMinimas: number;
+    medidasMinimas: number;
 
     constructor(etiqueta?: string, dependiente?: Dependiente, etiquetaMedida?: string) {
         super(TiposElementos.mediciones, etiqueta, dependiente);

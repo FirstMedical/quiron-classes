@@ -4,7 +4,7 @@ import { Medida } from "./Medida";
 export declare class CampoMediciones extends Campo {
     medidas: Medida[];
     etiquetaMedida: string;
-    private medidasMinimas;
+    medidasMinimas: number;
     constructor(etiqueta?: string, dependiente?: Dependiente, etiquetaMedida?: string);
     addMedida(medida: Medida): void;
     setMedidasMinimas(value: number): void;
