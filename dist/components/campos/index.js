@@ -33,6 +33,7 @@ var TiposElementos;
     TiposElementos["fecha"] = "fecha";
     TiposElementos["firma"] = "firma";
     TiposElementos["imagen"] = "imagen";
+    TiposElementos["mediciones"] = "mediciones";
 })(TiposElementos = exports.TiposElementos || (exports.TiposElementos = {}));
 var DiccionarioTiposElementos;
 (function (DiccionarioTiposElementos) {
@@ -47,6 +48,7 @@ var DiccionarioTiposElementos;
     DiccionarioTiposElementos["fecha"] = "Fecha";
     DiccionarioTiposElementos["firma"] = "Firma";
     DiccionarioTiposElementos["imagen"] = "Imagen";
+    DiccionarioTiposElementos["mediciones"] = "mediciones";
 })(DiccionarioTiposElementos = exports.DiccionarioTiposElementos || (exports.DiccionarioTiposElementos = {}));
 exports.edicion = __importStar(require("./edicion"));
 //# sourceMappingURL=index.js.map

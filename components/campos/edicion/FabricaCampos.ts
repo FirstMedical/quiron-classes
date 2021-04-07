@@ -1,7 +1,7 @@
 import {
     CampoChequeo,
     CampoEntradaNumerica,
-    CampoEntradaTexto, CampoFecha, CampoFirma, CampoImagen, CampoParametro,
+    CampoEntradaTexto, CampoFecha, CampoFirma, CampoImagen, CampoMediciones, CampoParametro,
     CampoSeccion,
     CampoSeleccion,
     CampoTabla, CampoTablaCompuesta
@@ -21,7 +21,8 @@ export class FabricaCampos {
         parametro: CampoParametro,
         fecha: CampoFecha,
         firma: CampoFirma,
-        imagen: CampoImagen
+        imagen: CampoImagen,
+        mediciones: CampoMediciones
     };
 
     public static fabricarCampoGenerico(elemento: TiposElementos): Campo {

@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c123c47c-07a8-49ed-9e66-e0a569adfb52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/campos/edicion/elementos/CampoMediciones/CampoMediciones.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/campos/edicion/elementos/CampoMediciones/Medicion.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/campos/edicion/elementos/CampoMediciones/Medida.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/campos/edicion/elementos/CampoMediciones/Rango.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/campos/edicion/elementos/CampoMediciones/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/campos/edicion/elementos/CampoFecha.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/campos/edicion/elementos/CampoFecha.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/campos/edicion/FabricaCampos.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/campos/edicion/FabricaCampos.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/campos/edicion/elementos/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/campos/edicion/elementos/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/campos/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/campos/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +58,26 @@
       <recent name="D:\Repos\repos_quiron\quiron_classes\components\campos\edicion\elementos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Repos\repos_quiron\quiron_classes\components\campos\edicion\elementos\CampoTablaMedidas" />
       <recent name="D:\Repos\repos_quiron\quiron_classes\errors" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
     <configuration default="true" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="run" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -75,6 +93,10 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.run" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -100,7 +122,9 @@
       <workItem from="1615911649533" duration="2492000" />
       <workItem from="1616544445222" duration="685000" />
       <workItem from="1617576638822" duration="17000" />
-      <workItem from="1617576688537" duration="10388000" />
+      <workItem from="1617576688537" duration="11636000" />
+      <workItem from="1617727915012" duration="3885000" />
+      <workItem from="1617826775149" duration="627000" />
     </task>
     <task id="LOCAL-00001" summary="Enumerador de errores.">
       <created>1610839575321</created>

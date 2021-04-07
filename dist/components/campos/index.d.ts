@@ -9,7 +9,8 @@ export declare enum TiposElementos {
     parametro = "parametro",
     fecha = "fecha",
     firma = "firma",
-    imagen = "imagen"
+    imagen = "imagen",
+    'mediciones' = "mediciones"
 }
 export declare enum DiccionarioTiposElementos {
     'entrada-texto' = "Entrada de texto",
@@ -22,7 +23,8 @@ export declare enum DiccionarioTiposElementos {
     parametro = "Parametro",
     fecha = "Fecha",
     firma = "Firma",
-    imagen = "Imagen"
+    imagen = "Imagen",
+    'mediciones' = "mediciones"
 }
 export * as edicion from "./edicion";
 //# sourceMappingURL=index.d.ts.map
