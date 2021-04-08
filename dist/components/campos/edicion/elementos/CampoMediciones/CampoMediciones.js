@@ -23,6 +23,7 @@ var CampoMediciones = /** @class */ (function (_super) {
         _this.etiquetaMedida = etiquetaMedida ? etiquetaMedida : "";
         _this.medidas = [];
         _this.medidasMinimas = 0;
+        _this.descriptorInstrucciones = "Dial";
         return _this;
     }
     CampoMediciones.prototype.addMedida = function (medida) {
