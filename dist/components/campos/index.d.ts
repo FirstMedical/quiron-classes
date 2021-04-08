@@ -24,7 +24,7 @@ export declare enum DiccionarioTiposElementos {
     fecha = "Fecha",
     firma = "Firma",
     imagen = "Imagen",
-    mediciones = "mediciones"
+    mediciones = "Mediciones"
 }
 export * as edicion from "./edicion";
 //# sourceMappingURL=index.d.ts.map

@@ -48,7 +48,7 @@ var DiccionarioTiposElementos;
     DiccionarioTiposElementos["fecha"] = "Fecha";
     DiccionarioTiposElementos["firma"] = "Firma";
     DiccionarioTiposElementos["imagen"] = "Imagen";
-    DiccionarioTiposElementos["mediciones"] = "mediciones";
+    DiccionarioTiposElementos["mediciones"] = "Mediciones";
 })(DiccionarioTiposElementos = exports.DiccionarioTiposElementos || (exports.DiccionarioTiposElementos = {}));
 exports.edicion = __importStar(require("./edicion"));
 //# sourceMappingURL=index.js.map

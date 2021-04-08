@@ -25,7 +25,7 @@ export enum DiccionarioTiposElementos {
     fecha = 'Fecha',
     firma = 'Firma',
     imagen = 'Imagen',
-    mediciones = 'mediciones'
+    mediciones = 'Mediciones'
 }
 
 export * as edicion from "./edicion";
