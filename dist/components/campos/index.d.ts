@@ -27,4 +27,5 @@ export declare enum DiccionarioTiposElementos {
     mediciones = "Mediciones"
 }
 export * as edicion from "./edicion";
+export declare const CAMPOS_REFERENCIABLES: TiposElementos[];
 //# sourceMappingURL=index.d.ts.map

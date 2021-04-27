@@ -29,3 +29,15 @@ export enum DiccionarioTiposElementos {
 }
 
 export * as edicion from "./edicion";
+
+export const CAMPOS_REFERENCIABLES = [
+    TiposElementos["entrada-numerica"],
+    TiposElementos["entrada-texto"],
+    TiposElementos.chequeo,
+    TiposElementos.seleccion,
+    TiposElementos.tabla,
+    TiposElementos.fecha,
+    TiposElementos.firma,
+    TiposElementos.imagen,
+    TiposElementos.mediciones
+];

@@ -19,7 +19,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.edicion = exports.DiccionarioTiposElementos = exports.TiposElementos = void 0;
+exports.CAMPOS_REFERENCIABLES = exports.edicion = exports.DiccionarioTiposElementos = exports.TiposElementos = void 0;
 var TiposElementos;
 (function (TiposElementos) {
     TiposElementos["entrada-texto"] = "entrada-texto";
@@ -51,4 +51,15 @@ var DiccionarioTiposElementos;
     DiccionarioTiposElementos["mediciones"] = "Mediciones";
 })(DiccionarioTiposElementos = exports.DiccionarioTiposElementos || (exports.DiccionarioTiposElementos = {}));
 exports.edicion = __importStar(require("./edicion"));
+exports.CAMPOS_REFERENCIABLES = [
+    TiposElementos["entrada-numerica"],
+    TiposElementos["entrada-texto"],
+    TiposElementos.chequeo,
+    TiposElementos.seleccion,
+    TiposElementos.tabla,
+    TiposElementos.fecha,
+    TiposElementos.firma,
+    TiposElementos.imagen,
+    TiposElementos.mediciones
+];
 //# sourceMappingURL=index.js.map
