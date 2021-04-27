@@ -19,8 +19,7 @@ var CampoConsolidado = /** @class */ (function (_super) {
     __extends(CampoConsolidado, _super);
     function CampoConsolidado(elemento, etiqueta, dependiente, presentacion, referencia, value) {
         var _this = _super.call(this, elemento, etiqueta, dependiente, presentacion, referencia) || this;
-        _this.value = null;
-        _this.value = value ? value : null;
+        _this.value = value ? value : "";
         return _this;
     }
     return CampoConsolidado;
