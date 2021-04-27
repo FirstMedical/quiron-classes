@@ -15,12 +15,13 @@ var Dependiente_1 = require("./Dependiente");
 var class_transformer_1 = require("class-transformer");
 var Referencia_1 = require("./Referencia");
 var Campo = /** @class */ (function () {
-    function Campo(elemento, etiqueta, dependiente, presentacion, referencia) {
+    function Campo(elemento, etiqueta, dependiente, presentacion, referencia, value) {
         this.presentacion = presentacion ? presentacion : etiqueta ? etiqueta : '';
         this.elemento = elemento ? elemento : index_1.TiposElementos.seccion;
         this.etiqueta = etiqueta ? etiqueta : '';
         this.dependiente = dependiente ? dependiente : new Dependiente_1.Dependiente();
         this.referencia = referencia ? referencia : new Referencia_1.Referencia();
+        this.value = value ? value : "";
     }
     __decorate([
         class_transformer_1.Type(function () { return Dependiente_1.Dependiente; }),
