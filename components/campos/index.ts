@@ -29,3 +29,4 @@ export enum DiccionarioTiposElementos {
 }
 
 export * as edicion from "./edicion";
+export * as recoleccion from "./recoleccion";
