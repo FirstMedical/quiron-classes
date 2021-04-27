@@ -29,15 +29,17 @@ var DBEntity_1 = __importDefault(require("./auxiliar/DBEntity"));
 var Sucursal_1 = __importDefault(require("./Sucursal"));
 var class_transformer_1 = require("class-transformer");
 var Equipo_1 = __importDefault(require("./Equipo"));
+var Contacto_1 = __importDefault(require("./Contacto"));
 var Cliente = /** @class */ (function (_super) {
     __extends(Cliente, _super);
-    function Cliente(nombre, identificacion, sucursalPrincipal, sucursales, equipos) {
+    function Cliente(nombre, identificacion, sucursalPrincipal, sucursales, equipos, contactos) {
         var _this = _super.call(this) || this;
         _this.nombre = nombre ? nombre : "";
         _this.identificacion = identificacion ? identificacion : "";
         _this.sucursalPrincipal = sucursalPrincipal ? sucursalPrincipal : new Sucursal_1.default();
         _this.sucursales = sucursales ? sucursales : [];
         _this.equipos = equipos ? equipos : [];
+        _this.contactos = contactos ? contactos : [];
         return _this;
     }
     __decorate([
@@ -52,6 +54,10 @@ var Cliente = /** @class */ (function (_super) {
         class_transformer_1.Type(function () { return Equipo_1.default; }),
         __metadata("design:type", Array)
     ], Cliente.prototype, "equipos", void 0);
+    __decorate([
+        class_transformer_1.Type(function () { return Contacto_1.default; }),
+        __metadata("design:type", Array)
+    ], Cliente.prototype, "contactos", void 0);
     return Cliente;
 }(DBEntity_1.default));
 exports.default = Cliente;

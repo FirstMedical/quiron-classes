@@ -1,6 +1,7 @@
 import DBEntity from "./auxiliar/DBEntity";
-import Cliente, {Contacto} from "./Cliente";
+import Cliente from "./Cliente";
 import {Type} from "class-transformer";
+import Contacto from "./Contacto";
 
 export interface Ubicacion{
     latitud: number,

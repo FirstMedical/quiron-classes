@@ -1,5 +1,6 @@
 import DBEntity from "./auxiliar/DBEntity";
-import Cliente, { Contacto } from "./Cliente";
+import Cliente from "./Cliente";
+import Contacto from "./Contacto";
 export interface Ubicacion {
     latitud: number;
     longitud: number;
