@@ -1,18 +1,15 @@
 import DBEntity from "./auxiliar/DBEntity";
 import Cliente from "./Cliente";
 import Contacto from "./Contacto";
-export interface Ubicacion {
+export default class Sucursal extends DBEntity {
+    identificacion: string;
     latitud: number;
     longitud: number;
     direccion: string;
     ciudad: string;
     departamento: string;
-}
-export default class Sucursal extends DBEntity {
-    identificacion: string;
-    ubicacion: Ubicacion;
     cliente: Cliente | null;
     contactos: Contacto[];
-    constructor(identificacion?: string, ubicacion?: Ubicacion, cliente?: Cliente, contactos?: Contacto[]);
+    constructor(identificacion?: string, latitud?: number, longitud?: number, direccion?: string, ciudad?: string, departamento?: string, cliente?: Cliente | null, contactos?: Contacto[]);
 }
 //# sourceMappingURL=Sucursal.d.ts.map

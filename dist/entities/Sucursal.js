@@ -30,16 +30,14 @@ var Cliente_1 = __importDefault(require("./Cliente"));
 var class_transformer_1 = require("class-transformer");
 var Sucursal = /** @class */ (function (_super) {
     __extends(Sucursal, _super);
-    function Sucursal(identificacion, ubicacion, cliente, contactos) {
+    function Sucursal(identificacion, latitud, longitud, direccion, ciudad, departamento, cliente, contactos) {
         var _this = _super.call(this) || this;
         _this.identificacion = identificacion ? identificacion : "";
-        _this.ubicacion = ubicacion ? ubicacion : {
-            ciudad: "Bogota",
-            departamento: "Cundinamarca",
-            direccion: "",
-            latitud: 4.6097100,
-            longitud: -74.0817500
-        };
+        _this.latitud = latitud ? latitud : 0;
+        _this.longitud = longitud ? longitud : 0;
+        _this.direccion = direccion ? direccion : "";
+        _this.ciudad = ciudad ? ciudad : "";
+        _this.departamento = departamento ? departamento : "";
         _this.cliente = cliente ? cliente : null;
         _this.contactos = contactos ? contactos : [];
         return _this;

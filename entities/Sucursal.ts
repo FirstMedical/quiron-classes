@@ -3,31 +3,26 @@ import Cliente from "./Cliente";
 import {Type} from "class-transformer";
 import Contacto from "./Contacto";
 
-export interface Ubicacion{
-    latitud: number,
-    longitud: number,
-    direccion: string,
-    ciudad: string,
-    departamento: string
-}
-
 export default class Sucursal extends DBEntity{
     identificacion: string;
-    ubicacion: Ubicacion;
+    latitud: number;
+    longitud: number;
+    direccion: string;
+    ciudad: string;
+    departamento: string;
     @Type(()=>Cliente)
     cliente: Cliente | null;
     contactos: Contacto[];
 
-    constructor(identificacion?: string, ubicacion?: Ubicacion, cliente?: Cliente, contactos?: Contacto[]) {
+
+    constructor(identificacion?: string, latitud?: number, longitud?: number, direccion?: string, ciudad?: string, departamento?: string, cliente?: Cliente | null, contactos?: Contacto[]) {
         super();
-        this.identificacion = identificacion ? identificacion : "";
-        this.ubicacion = ubicacion? ubicacion : {
-            ciudad: "Bogota",
-            departamento: "Cundinamarca",
-            direccion: "",
-            latitud: 4.6097100,
-            longitud: -74.0817500
-        };
+        this.identificacion = identificacion? identificacion : "";
+        this.latitud = latitud? latitud : 0;
+        this.longitud = longitud? longitud : 0;
+        this.direccion = direccion? direccion : "";
+        this.ciudad = ciudad? ciudad : "";
+        this.departamento = departamento? departamento : "";
         this.cliente = cliente? cliente : null;
         this.contactos = contactos? contactos : [];
     }
