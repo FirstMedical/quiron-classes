@@ -8,7 +8,8 @@ var TipoReferencia;
     TipoReferencia["CLIENTE"] = "CLIENTE";
 })(TipoReferencia = exports.TipoReferencia || (exports.TipoReferencia = {}));
 var Referencia = /** @class */ (function () {
-    function Referencia(tipo, identificador) {
+    function Referencia(activated, tipo, identificador) {
+        this.activated = activated ? activated : false;
         this.tipo = tipo ? tipo : TipoReferencia.PLANTILLA;
         this.identificador = identificador ? identificador : "raiz";
     }

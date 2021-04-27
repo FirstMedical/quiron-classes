@@ -4,8 +4,9 @@ export declare enum TipoReferencia {
     "CLIENTE" = "CLIENTE"
 }
 export declare class Referencia {
+    activated: boolean;
     tipo: TipoReferencia;
     identificador: string;
-    constructor(tipo?: TipoReferencia, identificador?: string);
+    constructor(activated?: boolean, tipo?: TipoReferencia, identificador?: string);
 }
 //# sourceMappingURL=Referencia.d.ts.map
