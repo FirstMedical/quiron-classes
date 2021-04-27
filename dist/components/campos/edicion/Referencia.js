@@ -4,8 +4,8 @@ exports.Referencia = exports.TipoReferencia = void 0;
 var TipoReferencia;
 (function (TipoReferencia) {
     TipoReferencia["PLANTILLA"] = "Plantilla";
-    TipoReferencia["EQUIPO"] = "EQUIPO";
-    TipoReferencia["CLIENTE"] = "CLIENTE";
+    TipoReferencia["EQUIPO"] = "Equipo";
+    TipoReferencia["CLIENTE"] = "Cliente";
 })(TipoReferencia = exports.TipoReferencia || (exports.TipoReferencia = {}));
 var Referencia = /** @class */ (function () {
     function Referencia(activated, tipo, identificador) {

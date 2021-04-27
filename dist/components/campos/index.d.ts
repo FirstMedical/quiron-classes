@@ -27,4 +27,5 @@ export declare enum DiccionarioTiposElementos {
     mediciones = "Mediciones"
 }
 export * as edicion from "./edicion";
+export * as recoleccion from "./recoleccion";
 //# sourceMappingURL=index.d.ts.map
