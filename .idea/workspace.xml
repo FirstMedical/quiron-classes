@@ -2,7 +2,173 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c123c47c-07a8-49ed-9e66-e0a569adfb52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/components/campos/edicion/Campo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/campos/edicion/Campo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/campos/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/campos/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/campos/recoleccion/CampoConsolidado.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/campos/recoleccion/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/Campo.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/Campo.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/Campo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/Campo.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/Dependiente.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/Dependiente.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/Dependiente.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/Dependiente.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/FabricaCampos.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/FabricaCampos.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/FabricaCampos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/FabricaCampos.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/Referencia.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/Referencia.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/Referencia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/Referencia.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoChequeo.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoChequeo.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoChequeo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoChequeo.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoEntradaNumerica.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoEntradaNumerica.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoEntradaNumerica.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoEntradaNumerica.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoEntradaTexto.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoEntradaTexto.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoEntradaTexto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoEntradaTexto.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoFecha.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoFecha.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoFecha.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoFecha.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoFirma.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoFirma.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoFirma.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoFirma.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoImagen.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoImagen.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoImagen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoImagen.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/CampoMediciones.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/CampoMediciones.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/CampoMediciones.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/CampoMediciones.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/Medicion.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/Medicion.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/Medicion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/Medicion.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/Medida.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/Medida.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/Medida.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/Medida.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/Rango.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/Rango.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/Rango.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/Rango.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoMediciones/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoParametro.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoParametro.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoParametro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoParametro.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoSeccion.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoSeccion.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoSeccion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoSeccion.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoSeleccion.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoSeleccion.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoSeleccion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoSeleccion.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoTabla.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoTabla.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoTabla.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoTabla.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoTablaCompuesta.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoTablaCompuesta.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoTablaCompuesta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/CampoTablaCompuesta.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/elementos/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/edicion/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/recoleccion/CampoConsolidado.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/recoleccion/CampoConsolidado.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/recoleccion/CampoConsolidado.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/recoleccion/CampoConsolidado.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/recoleccion/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/recoleccion/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/recoleccion/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/recoleccion/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/AccionOrdenTrabajo.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/AccionOrdenTrabajo.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/AccionOrdenTrabajo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/AccionOrdenTrabajo.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Equipo.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Equipo.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Equipo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Equipo.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Formulario.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Formulario.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Formulario.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Formulario.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/OrdenTrabajo.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/OrdenTrabajo.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/OrdenTrabajo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/OrdenTrabajo.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Plantilla.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Plantilla.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Plantilla.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Plantilla.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Rol.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Rol.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Rol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Rol.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Traza.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Traza.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Traza.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Traza.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Usuario.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Usuario.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Usuario.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Usuario.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/auxiliar/CacheCreationResponse.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/auxiliar/CacheCreationResponse.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/auxiliar/CacheCreationResponse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/auxiliar/CacheCreationResponse.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/auxiliar/Cacheable.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/auxiliar/Cacheable.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/auxiliar/Cacheable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/auxiliar/Cacheable.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/auxiliar/DBEntity.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/auxiliar/DBEntity.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/auxiliar/DBEntity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/auxiliar/DBEntity.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/errors/Errores.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/errors/Errores.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/errors/Errores.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/errors/Errores.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/errors/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/errors/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/errors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/errors/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +297,7 @@
       <workItem from="1617727915012" duration="3885000" />
       <workItem from="1617826775149" duration="5462000" />
       <workItem from="1619481960502" duration="5569000" />
-      <workItem from="1619539430617" duration="313000" />
+      <workItem from="1619539430617" duration="513000" />
     </task>
     <task id="LOCAL-00001" summary="Enumerador de errores.">
       <created>1610839575321</created>
@@ -203,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619539551570</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Value añadido a Campo.ts">
+      <created>1619539776538</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1619539776538</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +405,7 @@
     <MESSAGE value="Corregido error de compilacion 3.0" />
     <MESSAGE value="Corregido error de compilacion 4.0" />
     <MESSAGE value="Corregido error de compilacion 5.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corregido error de compilacion 5.0" />
+    <MESSAGE value="Value añadido a Campo.ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Value añadido a Campo.ts" />
   </component>
 </project>

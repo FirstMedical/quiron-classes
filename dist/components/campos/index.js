@@ -19,7 +19,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.recoleccion = exports.edicion = exports.DiccionarioTiposElementos = exports.TiposElementos = void 0;
+exports.edicion = exports.DiccionarioTiposElementos = exports.TiposElementos = void 0;
 var TiposElementos;
 (function (TiposElementos) {
     TiposElementos["entrada-texto"] = "entrada-texto";
@@ -51,5 +51,4 @@ var DiccionarioTiposElementos;
     DiccionarioTiposElementos["mediciones"] = "Mediciones";
 })(DiccionarioTiposElementos = exports.DiccionarioTiposElementos || (exports.DiccionarioTiposElementos = {}));
 exports.edicion = __importStar(require("./edicion"));
-exports.recoleccion = __importStar(require("./recoleccion"));
 //# sourceMappingURL=index.js.map
