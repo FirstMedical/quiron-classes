@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c123c47c-07a8-49ed-9e66-e0a569adfb52" name="Default Changelist" comment="Enumerador de errores.">
+      <change afterPath="$PROJECT_DIR$/components/campos/edicion/Referencia.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/campos/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/campos/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/campos/edicion/Campo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/campos/edicion/Campo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/campos/edicion/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/campos/edicion/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +119,8 @@
       <workItem from="1617576638822" duration="17000" />
       <workItem from="1617576688537" duration="11636000" />
       <workItem from="1617727915012" duration="3885000" />
-      <workItem from="1617826775149" duration="5082000" />
+      <workItem from="1617826775149" duration="5462000" />
+      <workItem from="1619481960502" duration="1920000" />
     </task>
     <task id="LOCAL-00001" summary="Enumerador de errores.">
       <created>1610839575321</created>
@@ -126,7 +129,7 @@
       <option name="project" value="LOCAL" />
       <updated>1610839575321</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

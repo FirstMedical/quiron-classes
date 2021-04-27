@@ -13,12 +13,14 @@ exports.Campo = void 0;
 var index_1 = require("../index");
 var Dependiente_1 = require("./Dependiente");
 var class_transformer_1 = require("class-transformer");
+var Referencia_1 = require("./Referencia");
 var Campo = /** @class */ (function () {
-    function Campo(elemento, etiqueta, dependiente, presentacion) {
+    function Campo(elemento, etiqueta, dependiente, presentacion, referencia) {
         this.presentacion = presentacion ? presentacion : etiqueta ? etiqueta : '';
         this.elemento = elemento ? elemento : index_1.TiposElementos.seccion;
         this.etiqueta = etiqueta ? etiqueta : '';
         this.dependiente = dependiente ? dependiente : new Dependiente_1.Dependiente();
+        this.referencia = referencia ? referencia : new Referencia_1.Referencia();
     }
     __decorate([
         class_transformer_1.Type(function () { return Dependiente_1.Dependiente; }),

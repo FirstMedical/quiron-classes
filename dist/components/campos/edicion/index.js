@@ -14,4 +14,5 @@ __exportStar(require("./elementos"), exports);
 __exportStar(require("./Campo"), exports);
 __exportStar(require("./Dependiente"), exports);
 __exportStar(require("./FabricaCampos"), exports);
+__exportStar(require("./Referencia"), exports);
 //# sourceMappingURL=index.js.map
