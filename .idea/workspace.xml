@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c123c47c-07a8-49ed-9e66-e0a569adfb52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/campos/recoleccion/CampoConsolidado.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/campos/recoleccion/CampoConsolidado.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/recoleccion/CampoConsolidado.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/campos/recoleccion/CampoConsolidado.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/recoleccion/CampoConsolidado.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/campos/recoleccion/CampoConsolidado.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/recoleccion/CampoConsolidado.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/campos/recoleccion/CampoConsolidado.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/campos/recoleccion/CampoConsolidado.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/campos/recoleccion/CampoConsolidado.js.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +134,7 @@
       <workItem from="1617576688537" duration="11636000" />
       <workItem from="1617727915012" duration="3885000" />
       <workItem from="1617826775149" duration="5462000" />
-      <workItem from="1619481960502" duration="4919000" />
+      <workItem from="1619481960502" duration="5272000" />
     </task>
     <task id="LOCAL-00001" summary="Enumerador de errores.">
       <created>1610839575321</created>
@@ -175,37 +178,18 @@
       <option name="project" value="LOCAL" />
       <updated>1619491882128</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Corregido error de compilacion 2.0">
+      <created>1619492137707</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619492137707</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/errors/index.js" />
-        <option value="$PROJECT_DIR$/errors/Errores.js" />
-        <option value="$PROJECT_DIR$/entities/Formulario.js" />
-        <option value="$PROJECT_DIR$/entities/Traza.js" />
-        <option value="$PROJECT_DIR$/entities/AccionOrdenTrabajo.js" />
-        <option value="$PROJECT_DIR$/entities/Rol.js" />
-        <option value="$PROJECT_DIR$/entities/Usuario.js" />
-        <option value="$PROJECT_DIR$/entities/index.js" />
-        <option value="$PROJECT_DIR$/entities/Equipo.js" />
-        <option value="$PROJECT_DIR$/entities/OrdenTrabajo.js" />
-        <option value="$PROJECT_DIR$/components/index.js" />
-        <option value="$PROJECT_DIR$/components/campos/index.js" />
-        <option value="$PROJECT_DIR$/components/campos/edicion/index.js" />
-        <option value="$PROJECT_DIR$/components/campos/edicion/Dependiente.js" />
-        <option value="$PROJECT_DIR$/components/campos/edicion/Campo.js" />
-        <option value="$PROJECT_DIR$/components/campos/edicion/elementos/CampoSeccion.js" />
-        <option value="$PROJECT_DIR$/components/campos/edicion/elementos/CampoEntradaNumerica.js" />
-        <option value="$PROJECT_DIR$/components/campos/edicion/elementos/CampoEntradaTexto.js" />
-        <option value="$PROJECT_DIR$/components/campos/edicion/elementos/index.js" />
-        <option value="$PROJECT_DIR$/components/campos/edicion/elementos/CampoChequeo.js" />
-        <option value="$PROJECT_DIR$/components/campos/edicion/elementos/CampoSeleccion.js" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -226,6 +210,7 @@
     <MESSAGE value="Añadidos los campos consolidados como campos ya con valor" />
     <MESSAGE value="Compilado el anterior commit" />
     <MESSAGE value="Corregido error de compilacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corregido error de compilacion" />
+    <MESSAGE value="Corregido error de compilacion 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corregido error de compilacion 2.0" />
   </component>
 </project>

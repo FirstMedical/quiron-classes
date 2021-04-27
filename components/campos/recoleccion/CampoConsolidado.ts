@@ -1,4 +1,6 @@
-import {Campo, Dependiente, Referencia} from "../edicion";
+import {Campo} from "../edicion/Campo";
+import {Dependiente} from "../edicion/Dependiente";
+import {Referencia} from "../edicion/Referencia";
 import {TiposElementos} from "../index";
 
 export class CampoConsolidado extends Campo{

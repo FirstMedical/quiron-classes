@@ -14,7 +14,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CampoConsolidado = void 0;
-var edicion_1 = require("../edicion");
+var Campo_1 = require("../edicion/Campo");
 var CampoConsolidado = /** @class */ (function (_super) {
     __extends(CampoConsolidado, _super);
     function CampoConsolidado(elemento, etiqueta, dependiente, presentacion, referencia, value) {
@@ -24,6 +24,6 @@ var CampoConsolidado = /** @class */ (function (_super) {
         return _this;
     }
     return CampoConsolidado;
-}(edicion_1.Campo));
+}(Campo_1.Campo));
 exports.CampoConsolidado = CampoConsolidado;
 //# sourceMappingURL=CampoConsolidado.js.map
