@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c123c47c-07a8-49ed-9e66-e0a569adfb52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Cliente.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Cliente.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Sucursal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Sucursal.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +133,7 @@
       <workItem from="1617727915012" duration="3885000" />
       <workItem from="1617826775149" duration="5462000" />
       <workItem from="1619481960502" duration="5569000" />
-      <workItem from="1619539430617" duration="9252000" />
+      <workItem from="1619539430617" duration="9919000" />
     </task>
     <task id="LOCAL-00001" summary="Enumerador de errores.">
       <created>1610839575321</created>
@@ -239,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619550950817</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Exportado contacto en la libreria">
+      <created>1619551131934</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1619551131934</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +281,7 @@
     <MESSAGE value="Añadidos CAMPOS_REFERENCIABLES a Campos" />
     <MESSAGE value="Añadidas entidades Cliente, Sucursal." />
     <MESSAGE value="Extraido Contacto como entidad de Cliente" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extraido Contacto como entidad de Cliente" />
+    <MESSAGE value="Exportado contacto en la libreria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exportado contacto en la libreria" />
   </component>
 </project>

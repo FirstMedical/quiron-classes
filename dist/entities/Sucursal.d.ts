@@ -11,7 +11,7 @@ export interface Ubicacion {
 export default class Sucursal extends DBEntity {
     identificacion: string;
     ubicacion: Ubicacion;
-    cliente: Cliente;
+    cliente: Cliente | null;
     contactos: Contacto[];
     constructor(identificacion?: string, ubicacion?: Ubicacion, cliente?: Cliente, contactos?: Contacto[]);
 }

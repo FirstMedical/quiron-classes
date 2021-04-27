@@ -40,13 +40,13 @@ var Sucursal = /** @class */ (function (_super) {
             latitud: 4.6097100,
             longitud: -74.0817500
         };
-        _this.cliente = cliente ? cliente : new Cliente_1.default();
+        _this.cliente = cliente ? cliente : null;
         _this.contactos = contactos ? contactos : [];
         return _this;
     }
     __decorate([
         class_transformer_1.Type(function () { return Cliente_1.default; }),
-        __metadata("design:type", Cliente_1.default)
+        __metadata("design:type", Object)
     ], Sucursal.prototype, "cliente", void 0);
     return Sucursal;
 }(DBEntity_1.default));

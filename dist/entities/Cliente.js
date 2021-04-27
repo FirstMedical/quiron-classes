@@ -36,7 +36,7 @@ var Cliente = /** @class */ (function (_super) {
         var _this = _super.call(this) || this;
         _this.nombre = nombre ? nombre : "";
         _this.identificacion = identificacion ? identificacion : "";
-        _this.sucursalPrincipal = sucursalPrincipal ? sucursalPrincipal : new Sucursal_1.default();
+        _this.sucursalPrincipal = sucursalPrincipal ? sucursalPrincipal : null;
         _this.sucursales = sucursales ? sucursales : [];
         _this.equipos = equipos ? equipos : [];
         _this.contactos = contactos ? contactos : [];
@@ -44,7 +44,7 @@ var Cliente = /** @class */ (function (_super) {
     }
     __decorate([
         class_transformer_1.Type(function () { return Sucursal_1.default; }),
-        __metadata("design:type", Sucursal_1.default)
+        __metadata("design:type", Object)
     ], Cliente.prototype, "sucursalPrincipal", void 0);
     __decorate([
         class_transformer_1.Type(function () { return Sucursal_1.default; }),

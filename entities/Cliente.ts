@@ -8,7 +8,7 @@ export default class Cliente extends DBEntity {
     nombre: string;
     identificacion: string;
     @Type(() => Sucursal)
-    sucursalPrincipal: Sucursal;
+    sucursalPrincipal: Sucursal | null;
     @Type(() => Sucursal)
     sucursales: Sucursal[];
     @Type(() => Equipo)
@@ -20,7 +20,7 @@ export default class Cliente extends DBEntity {
         super();
         this.nombre = nombre ? nombre : "";
         this.identificacion = identificacion ? identificacion : "";
-        this.sucursalPrincipal = sucursalPrincipal ? sucursalPrincipal : new Sucursal();
+        this.sucursalPrincipal = sucursalPrincipal ? sucursalPrincipal : null;
         this.sucursales = sucursales ? sucursales : [];
         this.equipos = equipos ? equipos : [];
         this.contactos = contactos? contactos : [];

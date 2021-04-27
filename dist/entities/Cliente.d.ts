@@ -5,7 +5,7 @@ import Contacto from "./Contacto";
 export default class Cliente extends DBEntity {
     nombre: string;
     identificacion: string;
-    sucursalPrincipal: Sucursal;
+    sucursalPrincipal: Sucursal | null;
     sucursales: Sucursal[];
     equipos: Equipo[];
     contactos: Contacto[];

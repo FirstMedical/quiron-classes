@@ -15,7 +15,7 @@ export default class Sucursal extends DBEntity{
     identificacion: string;
     ubicacion: Ubicacion;
     @Type(()=>Cliente)
-    cliente: Cliente;
+    cliente: Cliente | null;
     contactos: Contacto[];
 
     constructor(identificacion?: string, ubicacion?: Ubicacion, cliente?: Cliente, contactos?: Contacto[]) {
@@ -28,7 +28,7 @@ export default class Sucursal extends DBEntity{
             latitud: 4.6097100,
             longitud: -74.0817500
         };
-        this.cliente = cliente? cliente : new Cliente();
+        this.cliente = cliente? cliente : null;
         this.contactos = contactos? contactos : [];
     }
 }
