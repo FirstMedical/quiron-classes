@@ -6,6 +6,6 @@ export class CampoConsolidado extends Campo{
 
     constructor(elemento?: TiposElementos, etiqueta?: string, dependiente?: Dependiente, presentacion?: string, referencia?: Referencia, value?: any) {
         super(elemento, etiqueta, dependiente, presentacion, referencia);
-        this.value = value? value : undefined;
+        this.value = value? value : null;
     }
 }

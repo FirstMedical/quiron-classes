@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c123c47c-07a8-49ed-9e66-e0a569adfb52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/campos/recoleccion/CampoConsolidado.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/campos/recoleccion/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/campos/edicion/Referencia.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/campos/edicion/Referencia.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/campos/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/campos/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/campos/recoleccion/CampoConsolidado.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/campos/recoleccion/CampoConsolidado.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +131,7 @@
       <workItem from="1617576688537" duration="11636000" />
       <workItem from="1617727915012" duration="3885000" />
       <workItem from="1617826775149" duration="5462000" />
-      <workItem from="1619481960502" duration="4383000" />
+      <workItem from="1619481960502" duration="4699000" />
     </task>
     <task id="LOCAL-00001" summary="Enumerador de errores.">
       <created>1610839575321</created>
@@ -157,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619484867326</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Añadidos los campos consolidados como campos ya con valor">
+      <created>1619491570221</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619491570221</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Compilado el anterior commit">
+      <created>1619491681567</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619491681567</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +216,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Enumerador de errores." />
     <MESSAGE value="Añadido la Referencia.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadido la Referencia.ts" />
+    <MESSAGE value="Añadidos los campos consolidados como campos ya con valor" />
+    <MESSAGE value="Compilado el anterior commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compilado el anterior commit" />
   </component>
 </project>
