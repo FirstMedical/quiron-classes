@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Plantilla = exports.Usuario = exports.OrdenTrabajo = exports.Rol = exports.Formulario = exports.Traza = exports.Equipo = exports.AccionOrdenTrabajo = void 0;
+exports.Cliente = exports.Sucursal = exports.Plantilla = exports.Usuario = exports.OrdenTrabajo = exports.Rol = exports.Formulario = exports.Traza = exports.Equipo = exports.AccionOrdenTrabajo = void 0;
 var AccionOrdenTrabajo_1 = __importDefault(require("./AccionOrdenTrabajo"));
 exports.AccionOrdenTrabajo = AccionOrdenTrabajo_1.default;
 var Equipo_1 = __importDefault(require("./Equipo"));
@@ -20,4 +20,8 @@ var Traza_1 = __importDefault(require("./Traza"));
 exports.Traza = Traza_1.default;
 var Plantilla_1 = __importDefault(require("./Plantilla"));
 exports.Plantilla = Plantilla_1.default;
+var Sucursal_1 = __importDefault(require("./Sucursal"));
+exports.Sucursal = Sucursal_1.default;
+var Cliente_1 = __importDefault(require("./Cliente"));
+exports.Cliente = Cliente_1.default;
 //# sourceMappingURL=index.js.map

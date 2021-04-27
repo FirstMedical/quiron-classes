@@ -25,36 +25,30 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var OrdenTrabajo_1 = __importDefault(require("./OrdenTrabajo"));
 var DBEntity_1 = __importDefault(require("./auxiliar/DBEntity"));
-var class_transformer_1 = require("class-transformer");
 var Cliente_1 = __importDefault(require("./Cliente"));
-var Equipo = /** @class */ (function (_super) {
-    __extends(Equipo, _super);
-    function Equipo(serial, marca, modelo, serie, codigo, garantia, cliente, ots) {
+var class_transformer_1 = require("class-transformer");
+var Sucursal = /** @class */ (function (_super) {
+    __extends(Sucursal, _super);
+    function Sucursal(identificacion, ubicacion, cliente, contactos) {
         var _this = _super.call(this) || this;
-        _this.serial = "";
-        _this.marca = "";
-        _this.modelo = "";
-        _this.serie = "";
-        _this.codigo = "";
-        _this.garantia = null;
-        _this.ots = [];
-        _this.serial = serial ? serial : "";
-        _this.marca = marca ? marca : "";
-        _this.modelo = modelo ? modelo : "";
-        _this.serie = serie ? serie : "";
-        _this.codigo = codigo ? codigo : "";
-        _this.garantia = garantia ? garantia : null;
+        _this.identificacion = identificacion ? identificacion : "";
+        _this.ubicacion = ubicacion ? ubicacion : {
+            ciudad: "Bogota",
+            departamento: "Cundinamarca",
+            direccion: "",
+            latitud: 4.6097100,
+            longitud: -74.0817500
+        };
         _this.cliente = cliente ? cliente : new Cliente_1.default();
-        _this.ots = ots ? ots : [];
+        _this.contactos = contactos ? contactos : [];
         return _this;
     }
     __decorate([
-        class_transformer_1.Type(function () { return OrdenTrabajo_1.default; }),
-        __metadata("design:type", Array)
-    ], Equipo.prototype, "ots", void 0);
-    return Equipo;
+        class_transformer_1.Type(function () { return Cliente_1.default; }),
+        __metadata("design:type", Cliente_1.default)
+    ], Sucursal.prototype, "cliente", void 0);
+    return Sucursal;
 }(DBEntity_1.default));
-exports.default = Equipo;
-//# sourceMappingURL=Equipo.js.map
+exports.default = Sucursal;
+//# sourceMappingURL=Sucursal.js.map

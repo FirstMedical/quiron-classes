@@ -6,5 +6,7 @@ import Rol from "./Rol";
 import Formulario from "./Formulario";
 import Traza from "./Traza";
 import Plantilla from "./Plantilla";
-export { AccionOrdenTrabajo, Equipo, Traza, Formulario, Rol, OrdenTrabajo, Usuario, Plantilla };
+import Sucursal from "./Sucursal";
+import Cliente from "./Cliente";
+export { AccionOrdenTrabajo, Equipo, Traza, Formulario, Rol, OrdenTrabajo, Usuario, Plantilla, Sucursal, Cliente };
 //# sourceMappingURL=index.d.ts.map

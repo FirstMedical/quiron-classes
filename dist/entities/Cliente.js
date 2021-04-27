@@ -25,36 +25,34 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var OrdenTrabajo_1 = __importDefault(require("./OrdenTrabajo"));
 var DBEntity_1 = __importDefault(require("./auxiliar/DBEntity"));
+var Sucursal_1 = __importDefault(require("./Sucursal"));
 var class_transformer_1 = require("class-transformer");
-var Cliente_1 = __importDefault(require("./Cliente"));
-var Equipo = /** @class */ (function (_super) {
-    __extends(Equipo, _super);
-    function Equipo(serial, marca, modelo, serie, codigo, garantia, cliente, ots) {
+var Equipo_1 = __importDefault(require("./Equipo"));
+var Cliente = /** @class */ (function (_super) {
+    __extends(Cliente, _super);
+    function Cliente(nombre, identificacion, sucursalPrincipal, sucursales, equipos) {
         var _this = _super.call(this) || this;
-        _this.serial = "";
-        _this.marca = "";
-        _this.modelo = "";
-        _this.serie = "";
-        _this.codigo = "";
-        _this.garantia = null;
-        _this.ots = [];
-        _this.serial = serial ? serial : "";
-        _this.marca = marca ? marca : "";
-        _this.modelo = modelo ? modelo : "";
-        _this.serie = serie ? serie : "";
-        _this.codigo = codigo ? codigo : "";
-        _this.garantia = garantia ? garantia : null;
-        _this.cliente = cliente ? cliente : new Cliente_1.default();
-        _this.ots = ots ? ots : [];
+        _this.nombre = nombre ? nombre : "";
+        _this.identificacion = identificacion ? identificacion : "";
+        _this.sucursalPrincipal = sucursalPrincipal ? sucursalPrincipal : new Sucursal_1.default();
+        _this.sucursales = sucursales ? sucursales : [];
+        _this.equipos = equipos ? equipos : [];
         return _this;
     }
     __decorate([
-        class_transformer_1.Type(function () { return OrdenTrabajo_1.default; }),
+        class_transformer_1.Type(function () { return Sucursal_1.default; }),
+        __metadata("design:type", Sucursal_1.default)
+    ], Cliente.prototype, "sucursalPrincipal", void 0);
+    __decorate([
+        class_transformer_1.Type(function () { return Sucursal_1.default; }),
         __metadata("design:type", Array)
-    ], Equipo.prototype, "ots", void 0);
-    return Equipo;
+    ], Cliente.prototype, "sucursales", void 0);
+    __decorate([
+        class_transformer_1.Type(function () { return Equipo_1.default; }),
+        __metadata("design:type", Array)
+    ], Cliente.prototype, "equipos", void 0);
+    return Cliente;
 }(DBEntity_1.default));
-exports.default = Equipo;
-//# sourceMappingURL=Equipo.js.map
+exports.default = Cliente;
+//# sourceMappingURL=Cliente.js.map
