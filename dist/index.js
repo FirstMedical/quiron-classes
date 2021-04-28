@@ -24,5 +24,4 @@ require("reflect-metadata");
 exports.components = __importStar(require("./components"));
 exports.entities = __importStar(require("./entities"));
 exports.errors = __importStar(require("./errors"));
-//console.log(FabricaCampos.fabricarCampoConEtiqueta(TiposElementos.seccion, "raiz"));
 //# sourceMappingURL=index.js.map

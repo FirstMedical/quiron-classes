@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="c123c47c-07a8-49ed-9e66-e0a569adfb52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Sucursal.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/entities/Sucursal.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Sucursal.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/entities/Sucursal.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Sucursal.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/entities/Sucursal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/entities/Sucursal.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/entities/Sucursal.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entities/Sucursal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Sucursal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +140,7 @@
       <workItem from="1617727915012" duration="3885000" />
       <workItem from="1617826775149" duration="5462000" />
       <workItem from="1619481960502" duration="5569000" />
-      <workItem from="1619539430617" duration="11317000" />
+      <workItem from="1619539430617" duration="20017000" />
     </task>
     <task id="LOCAL-00001" summary="Enumerador de errores.">
       <created>1610839575321</created>
@@ -253,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619555354801</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Ubicacion extendida dentro de la Sucursal.">
+      <created>1619565299128</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1619565299129</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +304,7 @@
     <MESSAGE value="Extraido Contacto como entidad de Cliente" />
     <MESSAGE value="Exportado contacto en la libreria" />
     <MESSAGE value="Eliminada referencia circular entre cliente y sucursal." />
-    <option name="LAST_COMMIT_MESSAGE" value="Eliminada referencia circular entre cliente y sucursal." />
+    <MESSAGE value="Ubicacion extendida dentro de la Sucursal." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ubicacion extendida dentro de la Sucursal." />
   </component>
 </project>
