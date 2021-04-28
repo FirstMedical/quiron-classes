@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Sucursal = /** @class */ (function () {
-    function Sucursal(identificacion, latitud, longitud, direccion, ciudad, departamento, cliente, contactos) {
+    function Sucursal(identificacion, latitud, longitud, direccion, ciudad, departamento, contactos) {
         this.identificacion = identificacion ? identificacion : "";
         this.latitud = latitud ? latitud : 0;
         this.longitud = longitud ? longitud : 0;
