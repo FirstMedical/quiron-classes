@@ -23,10 +23,10 @@ var Rol = /** @class */ (function (_super) {
         var _this = _super.call(this) || this;
         _this.identificador = "";
         _this.descripcion = "";
-        _this.permisos = 10000;
+        _this.permisos = {};
         _this.identificador = identificador ? identificador : "";
         _this.descripcion = descripcion ? descripcion : "";
-        _this.permisos = permisos ? permisos : 10000;
+        _this.permisos = permisos ? permisos : {};
         _this.usuarios = usuarios ? usuarios : [];
         return _this;
     }

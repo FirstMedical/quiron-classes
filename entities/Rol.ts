@@ -4,15 +4,15 @@ import Usuario from "./Usuario";
 export default class Rol extends DBEntity {
     identificador: string = "";
     descripcion: string = "";
-    permisos: number = 10000;
+    permisos: Record<string, boolean> = {};
     usuarios: Usuario[];
 
 
-    constructor(identificador?: string, descripcion?: string, permisos?: number, usuarios?: Usuario[]) {
+    constructor(identificador?: string, descripcion?: string, permisos?: Record<string, boolean>, usuarios?: Usuario[]) {
         super();
         this.identificador = identificador ? identificador : "";
         this.descripcion = descripcion ? descripcion : "";
-        this.permisos = permisos ? permisos : 10000;
+        this.permisos = permisos ? permisos : {};
         this.usuarios = usuarios ? usuarios : [];
     }
 }
