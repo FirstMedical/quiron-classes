@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c123c47c-07a8-49ed-9e66-e0a569adfb52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/Plantilla.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Plantilla.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Rol.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Rol.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/auxiliar/DBEntity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/auxiliar/DBEntity.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="ts.external.directory.path" value="D:\Repos\repos_quiron\quiron_classes\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\Repos\repos_quiron\quiron-classes\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -134,6 +135,7 @@
       <workItem from="1619481960502" duration="5569000" />
       <workItem from="1619539430617" duration="21298000" />
       <workItem from="1620533908713" duration="236000" />
+      <workItem from="1626731594797" duration="3362000" />
     </task>
     <task id="LOCAL-00001" summary="Enumerador de errores.">
       <created>1610839575321</created>

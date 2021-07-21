@@ -19,7 +19,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var DBEntity_1 = __importDefault(require("./auxiliar/DBEntity"));
 var Rol = /** @class */ (function (_super) {
     __extends(Rol, _super);
-    function Rol(identificador, descripcion, permisos) {
+    function Rol(identificador, descripcion, permisos, usuarios) {
         var _this = _super.call(this) || this;
         _this.identificador = "";
         _this.descripcion = "";
@@ -27,6 +27,7 @@ var Rol = /** @class */ (function (_super) {
         _this.identificador = identificador ? identificador : "";
         _this.descripcion = descripcion ? descripcion : "";
         _this.permisos = permisos ? permisos : 10000;
+        _this.usuarios = usuarios ? usuarios : [];
         return _this;
     }
     return Rol;
