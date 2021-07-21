@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c123c47c-07a8-49ed-9e66-e0a569adfb52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/Rol.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Rol.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entities/auxiliar/DBEntity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entities/auxiliar/DBEntity.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
