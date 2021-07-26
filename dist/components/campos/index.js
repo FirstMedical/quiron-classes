@@ -34,6 +34,7 @@ var TiposElementos;
     TiposElementos["firma"] = "firma";
     TiposElementos["imagen"] = "imagen";
     TiposElementos["mediciones"] = "mediciones";
+    TiposElementos["informacion"] = "informacion";
 })(TiposElementos = exports.TiposElementos || (exports.TiposElementos = {}));
 var DiccionarioTiposElementos;
 (function (DiccionarioTiposElementos) {
@@ -49,6 +50,7 @@ var DiccionarioTiposElementos;
     DiccionarioTiposElementos["firma"] = "Firma";
     DiccionarioTiposElementos["imagen"] = "Imagen";
     DiccionarioTiposElementos["mediciones"] = "Mediciones";
+    DiccionarioTiposElementos["informacion"] = "Informacion";
 })(DiccionarioTiposElementos = exports.DiccionarioTiposElementos || (exports.DiccionarioTiposElementos = {}));
 exports.edicion = __importStar(require("./edicion"));
 exports.CAMPOS_REFERENCIABLES = [
@@ -60,6 +62,7 @@ exports.CAMPOS_REFERENCIABLES = [
     TiposElementos.fecha,
     TiposElementos.firma,
     TiposElementos.imagen,
-    TiposElementos.mediciones
+    TiposElementos.mediciones,
+    TiposElementos.informacion
 ];
 //# sourceMappingURL=index.js.map
