@@ -8,6 +8,7 @@ import {
 } from "./elementos";
 import {TiposElementos} from "../index";
 import {Campo} from "./Campo";
+import {CampoInformacion} from "./elementos/CampoInformacion";
 
 export class FabricaCampos {
     private static camposCreables = {
@@ -22,7 +23,8 @@ export class FabricaCampos {
         fecha: CampoFecha,
         firma: CampoFirma,
         imagen: CampoImagen,
-        mediciones: CampoMediciones
+        mediciones: CampoMediciones,
+        informacion: CampoInformacion
     };
 
     public static fabricarCampoGenerico(elemento: TiposElementos): Campo {

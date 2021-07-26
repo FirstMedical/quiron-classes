@@ -18,10 +18,9 @@ var Campo_1 = require("../Campo");
 var index_1 = require("../../index");
 var CampoInformacion = /** @class */ (function (_super) {
     __extends(CampoInformacion, _super);
-    function CampoInformacion(etiqueta, dependiente, informacion) {
+    function CampoInformacion(etiqueta, dependiente) {
         var _this = _super.call(this, index_1.TiposElementos.informacion, etiqueta, dependiente) || this;
         _this.informacion = '';
-        _this.informacion = informacion ? informacion : '';
         return _this;
     }
     return CampoInformacion;

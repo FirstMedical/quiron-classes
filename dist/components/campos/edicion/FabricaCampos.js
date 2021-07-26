@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.FabricaCampos = void 0;
 var elementos_1 = require("./elementos");
+var CampoInformacion_1 = require("./elementos/CampoInformacion");
 var FabricaCampos = /** @class */ (function () {
     function FabricaCampos() {
     }
@@ -29,7 +30,8 @@ var FabricaCampos = /** @class */ (function () {
         fecha: elementos_1.CampoFecha,
         firma: elementos_1.CampoFirma,
         imagen: elementos_1.CampoImagen,
-        mediciones: elementos_1.CampoMediciones
+        mediciones: elementos_1.CampoMediciones,
+        informacion: CampoInformacion_1.CampoInformacion
     };
     return FabricaCampos;
 }());

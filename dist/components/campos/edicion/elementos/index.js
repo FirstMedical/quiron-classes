@@ -22,4 +22,5 @@ __exportStar(require("./CampoParametro"), exports);
 __exportStar(require("./CampoTabla"), exports);
 __exportStar(require("./CampoTablaCompuesta"), exports);
 __exportStar(require("./CampoMediciones"), exports);
+__exportStar(require("./CampoInformacion"), exports);
 //# sourceMappingURL=index.js.map

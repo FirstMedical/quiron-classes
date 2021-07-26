@@ -10,4 +10,5 @@ export * from "./CampoParametro";
 export * from "./CampoTabla";
 export * from "./CampoTablaCompuesta";
 export * from "./CampoMediciones";
+export * from "./CampoInformacion";
 //# sourceMappingURL=index.d.ts.map
