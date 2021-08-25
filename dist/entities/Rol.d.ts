@@ -1,10 +1,10 @@
 import Usuario from "./Usuario";
 import { Permission } from "../auth";
 export interface RolConstructor {
-    identificador: string;
-    descripcion: string;
-    permisos: Record<string, Permission>;
-    usuarios: Usuario[];
+    identificador?: string;
+    descripcion?: string;
+    permisos?: Record<string, Permission>;
+    usuarios?: Usuario[];
 }
 export default class Rol {
     identificador: string;
