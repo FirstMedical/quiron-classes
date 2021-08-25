@@ -4,11 +4,11 @@ import Cacheable from "./auxiliar/Cacheable";
 import {v4} from "uuid";
 
 export interface PlantillaConstructor {
-    serial: string;
-    version: number;
-    identificador: string;
-    modelo: CampoSeccion;
-    relacionadas: Plantilla[];
+    serial?: string;
+    version?: number;
+    identificador?: string;
+    modelo?: CampoSeccion;
+    relacionadas?: Plantilla[];
 }
 
 export default class Plantilla extends Cacheable {
