@@ -22,7 +22,7 @@ export default class Plantilla extends Cacheable {
 
     constructor({serial, version, identificador, modelo, relacionadas}: PlantillaConstructor) {
         super();
-        this.serial = serial ? serial : v4();
+        this.serial = serial ? serial : "";
         this.version = version ? version : 1;
         this.identificador = identificador ? identificador : "";
         this.modelo = modelo ? modelo : new CampoSeccion("raiz");

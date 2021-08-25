@@ -28,13 +28,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var edicion_1 = require("../components/campos/edicion");
 var class_transformer_1 = require("class-transformer");
 var Cacheable_1 = __importDefault(require("./auxiliar/Cacheable"));
-var uuid_1 = require("uuid");
 var Plantilla = /** @class */ (function (_super) {
     __extends(Plantilla, _super);
     function Plantilla(_a) {
         var serial = _a.serial, version = _a.version, identificador = _a.identificador, modelo = _a.modelo, relacionadas = _a.relacionadas;
         var _this = _super.call(this) || this;
-        _this.serial = serial ? serial : uuid_1.v4();
+        _this.serial = serial ? serial : "";
         _this.version = version ? version : 1;
         _this.identificador = identificador ? identificador : "";
         _this.modelo = modelo ? modelo : new edicion_1.CampoSeccion("raiz");
