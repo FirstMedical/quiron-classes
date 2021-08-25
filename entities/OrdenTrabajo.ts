@@ -13,17 +13,19 @@ export interface OrdenTrabajoConstructor {
 
 export default class OrdenTrabajo {
     id?: string;
-    equipo: Equipo | null;
-    cliente: Cliente | null;
-    servicio: Servicio | null;
+    equipo: Equipo;
+    cliente: Cliente;
+    servicio: Servicio;
     formularios: Formulario[];
 
 
     constructor({id, equipo, cliente, servicio, formularios}: OrdenTrabajoConstructor) {
         this.id = id ? id : "";
-        this.equipo = equipo ? equipo : null;
-        this.cliente = cliente ? cliente : null;
-        this.servicio = servicio ? servicio : null;
-        this.formularios = formularios ? formularios : [];
+        this.equipo = equipo ? new Equipo(equipo) : new Equipo({});
+        this.cliente = cliente ? new Cliente(cliente) : new Cliente({});
+        this.servicio = servicio ? new Servicio(servicio) : new Servicio({});
+        this.formularios = formularios ? formularios.map((element: any) => {
+            return new Formulario(element);
+        }) : [];
     }
 }

@@ -1,5 +1,4 @@
 import OrdenTrabajo from "./OrdenTrabajo";
-import {Type} from "class-transformer";
 import Cliente from "./Cliente";
 
 export interface EquipoConstructor {
@@ -22,10 +21,9 @@ export default class Equipo {
     modelo: string = "";
     serie: string = "";
     codigo: string = "";
-    garantia: Buffer | null = null;
+    garantia: Buffer;
     propietario: Cliente;
-    @Type(() => OrdenTrabajo)
-    ots: OrdenTrabajo[] = [];
+    ots: OrdenTrabajo[];
     atributos: Record<string, any>;
 
     constructor({id, serial, marca, modelo, serie, codigo, ots, garantia, propietario, atributos}: EquipoConstructor) {
@@ -35,9 +33,12 @@ export default class Equipo {
         this.modelo = modelo ? modelo : "";
         this.serie = serie ? serie : "";
         this.codigo = codigo ? codigo : "";
-        this.garantia = garantia ? garantia : null;
-        this.propietario = propietario ? propietario : new Cliente({});
+        this.garantia = garantia ? garantia : new Buffer("");
+        this.propietario = propietario ? new Cliente(propietario) : new Cliente({});
         this.ots = ots ? ots : [];
+        this.ots = ots ? ots.map((element: any) => {
+            return new OrdenTrabajo(element);
+        }) : [];
         this.atributos = atributos ? atributos : {};
     }
 }

@@ -11,9 +11,9 @@ export interface OrdenTrabajoConstructor {
 }
 export default class OrdenTrabajo {
     id?: string;
-    equipo: Equipo | null;
-    cliente: Cliente | null;
-    servicio: Servicio | null;
+    equipo: Equipo;
+    cliente: Cliente;
+    servicio: Servicio;
     formularios: Formulario[];
     constructor({ id, equipo, cliente, servicio, formularios }: OrdenTrabajoConstructor);
 }

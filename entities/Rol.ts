@@ -18,6 +18,8 @@ export default class Rol {
         this.identificador = identificador ? identificador : "";
         this.descripcion = descripcion ? descripcion : "";
         this.permisos = permisos ? permisos : {};
-        this.usuarios = usuarios ? usuarios : [];
+        this.usuarios = usuarios ? usuarios.map((element: any) => {
+            return new Usuario(element);
+        }) : [];
     }
 }

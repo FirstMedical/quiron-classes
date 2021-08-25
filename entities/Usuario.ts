@@ -1,5 +1,4 @@
 import Rol from "./Rol";
-import {Exclude, Type} from "class-transformer";
 
 export interface UsuarioConstructor {
     id?: string;
@@ -20,11 +19,9 @@ export default class Usuario {
     nombres: string;
     apellidos: string;
     fecha_nacimiento: Date;
-    @Exclude()
     password: string;
     cambiar_password: boolean;
     no_informacion: boolean;
-    @Type(() => Rol)
     roles: Rol[];
     firma: string;
 
@@ -48,7 +45,9 @@ export default class Usuario {
         this.password = password ? password : "";
         this.cambiar_password = cambiar_password ? cambiar_password : false;
         this.no_informacion = no_informacion ? no_informacion : false;
-        this.roles = roles ? roles : [];
+        this.roles = roles ? roles.map((element: any) => {
+            return new Rol(element);
+        }) : [];
         this.firma = firma ? firma : "";
     }
 }

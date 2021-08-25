@@ -20,7 +20,7 @@ export default class Equipo {
     modelo: string;
     serie: string;
     codigo: string;
-    garantia: Buffer | null;
+    garantia: Buffer;
     propietario: Cliente;
     ots: OrdenTrabajo[];
     atributos: Record<string, any>;

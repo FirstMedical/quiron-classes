@@ -13,7 +13,9 @@ export default class Servicio {
 
     constructor({id, plantillas, atributos}: ServicioConstructor) {
         this.id = id ? id : "";
-        this.plantillas = plantillas ? plantillas : [];
-        this.atributos = atributos ? atributos : [];
+        this.plantillas = plantillas ? plantillas.map((element: any) => {
+            return new Plantilla(element);
+        }) : [];
+        this.atributos = atributos ? atributos : {};
     }
 }

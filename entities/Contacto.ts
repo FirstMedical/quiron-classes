@@ -1,5 +1,4 @@
 import Sucursal from "./Sucursal";
-import {Type} from "class-transformer";
 
 export interface ContactoConstructor {
     id?: string;
@@ -18,7 +17,6 @@ export default class Contacto {
     apellidos: string;
     telefonos: string[];
     emails: string[];
-    @Type(() => Sucursal)
     sucursales: Sucursal[];
 
     constructor({id, identificacion, nombres, apellidos, telefonos, emails, sucursales}: ContactoConstructor) {
@@ -28,6 +26,8 @@ export default class Contacto {
         this.apellidos = apellidos ? apellidos : "";
         this.telefonos = telefonos ? telefonos : [];
         this.emails = emails ? emails : [];
-        this.sucursales = sucursales ? sucursales : [];
+        this.sucursales = sucursales ? sucursales.map((element: any) => {
+            return new Sucursal(element);
+        }) : [];
     }
 }

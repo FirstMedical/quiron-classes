@@ -1,7 +1,6 @@
 import {CampoSeccion} from "../components/campos/edicion";
-import {Type} from "class-transformer";
+import {plainToClass, Type} from "class-transformer";
 import Cacheable from "./auxiliar/Cacheable";
-import {v4} from "uuid";
 
 export interface PlantillaConstructor {
     serial?: string;
@@ -17,7 +16,6 @@ export default class Plantilla extends Cacheable {
     identificador: string;
     @Type(() => CampoSeccion)
     modelo: CampoSeccion;
-    @Type(() => Plantilla)
     relacionadas: Plantilla[];
 
     constructor({serial, version, identificador, modelo, relacionadas}: PlantillaConstructor) {
@@ -25,7 +23,9 @@ export default class Plantilla extends Cacheable {
         this.serial = serial ? serial : "";
         this.version = version ? version : 1;
         this.identificador = identificador ? identificador : "";
-        this.modelo = modelo ? modelo : new CampoSeccion("raiz");
-        this.relacionadas = relacionadas ? relacionadas : [];
+        this.modelo = modelo ? plainToClass<CampoSeccion, any>(CampoSeccion, modelo) : new CampoSeccion("raiz");
+        this.relacionadas = relacionadas ? relacionadas.map((element: any) => {
+            return new Plantilla(element);
+        }) : [];
     }
 }

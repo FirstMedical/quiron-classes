@@ -15,7 +15,7 @@ export default class Cliente {
     nombre: string;
     identificacion: string;
     sucursales: Sucursal[];
-    sucursalPrincipal: Sucursal | null;
+    sucursalPrincipal: Sucursal;
     contactos: Contacto[];
     equipos: Equipo[];
     constructor({ id, nombre, identificacion, sucursales, sucursalPrincipal, contactos, equipos }: ClienteConstructor);

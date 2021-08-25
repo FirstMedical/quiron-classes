@@ -9,9 +9,9 @@ export interface FormularioConstructor {
 }
 export default class Formulario {
     id?: string;
-    plantilla: Plantilla | null;
+    plantilla: Plantilla;
     datos: Record<string, any>;
-    ot: OrdenTrabajo | null;
+    ot: OrdenTrabajo;
     finalizada: boolean;
     constructor({ id, plantilla, datos, ot, finalizada }: FormularioConstructor);
 }

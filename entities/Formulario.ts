@@ -11,17 +11,16 @@ export interface FormularioConstructor {
 
 export default class Formulario {
     id?: string;
-    plantilla: Plantilla | null;
+    plantilla: Plantilla;
     datos: Record<string, any>;
-    ot: OrdenTrabajo | null;
+    ot: OrdenTrabajo;
     finalizada: boolean;
-
 
     constructor({id, plantilla, datos, ot, finalizada}: FormularioConstructor) {
         this.id = id ? id : "";
-        this.plantilla = plantilla ? plantilla : null;
+        this.plantilla = plantilla ? new Plantilla(plantilla) : new Plantilla({});
         this.datos = datos ? datos : {};
-        this.ot = ot ? ot : null;
+        this.ot = ot ? new OrdenTrabajo(ot) : new OrdenTrabajo({});
         this.finalizada = finalizada ? finalizada : false;
     }
 }
