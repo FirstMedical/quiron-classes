@@ -1,6 +1,7 @@
 /// <reference types="node" />
 import OrdenTrabajo from "./OrdenTrabajo";
 import Cliente from "./Cliente";
+import Sucursal from "./Sucursal";
 export interface EquipoConstructor {
     id?: string;
     serial?: string;
@@ -10,6 +11,7 @@ export interface EquipoConstructor {
     codigo?: string;
     garantia?: Buffer;
     propietario?: Cliente;
+    sucursal?: Sucursal;
     ots?: OrdenTrabajo[];
     atributos?: Record<string, any>;
 }
@@ -22,8 +24,9 @@ export default class Equipo {
     codigo: string;
     garantia: Buffer;
     propietario: Cliente;
+    sucursal: Sucursal;
     ots: OrdenTrabajo[];
     atributos: Record<string, any>;
-    constructor({ id, serial, marca, modelo, serie, codigo, ots, garantia, propietario, atributos }: EquipoConstructor);
+    constructor({ id, serial, marca, modelo, serie, codigo, ots, garantia, propietario, sucursal, atributos }: EquipoConstructor);
 }
 //# sourceMappingURL=Equipo.d.ts.map

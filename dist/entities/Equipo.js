@@ -5,9 +5,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var OrdenTrabajo_1 = __importDefault(require("./OrdenTrabajo"));
 var Cliente_1 = __importDefault(require("./Cliente"));
+var Sucursal_1 = __importDefault(require("./Sucursal"));
 var Equipo = /** @class */ (function () {
     function Equipo(_a) {
-        var id = _a.id, serial = _a.serial, marca = _a.marca, modelo = _a.modelo, serie = _a.serie, codigo = _a.codigo, ots = _a.ots, garantia = _a.garantia, propietario = _a.propietario, atributos = _a.atributos;
+        var id = _a.id, serial = _a.serial, marca = _a.marca, modelo = _a.modelo, serie = _a.serie, codigo = _a.codigo, ots = _a.ots, garantia = _a.garantia, propietario = _a.propietario, sucursal = _a.sucursal, atributos = _a.atributos;
         this.serial = "";
         this.marca = "";
         this.modelo = "";
@@ -21,7 +22,7 @@ var Equipo = /** @class */ (function () {
         this.codigo = codigo ? codigo : "";
         this.garantia = garantia ? garantia : new Buffer("");
         this.propietario = propietario ? new Cliente_1.default(propietario) : new Cliente_1.default({});
-        this.ots = ots ? ots : [];
+        this.sucursal = sucursal ? new Sucursal_1.default(sucursal) : new Sucursal_1.default({});
         this.ots = ots ? ots.map(function (element) {
             return new OrdenTrabajo_1.default(element);
         }) : [];
