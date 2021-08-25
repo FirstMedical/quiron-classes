@@ -1,17 +1,30 @@
-import DBEntity from "./auxiliar/DBEntity";
+import Sucursal from "./Sucursal";
+import {Type} from "class-transformer";
 
-export default class Contacto extends DBEntity{
+export interface ContactoConstructor {
+    id?: string;
+    nombres?: string;
+    apellidos?: string;
+    telefonos?: string[];
+    emails?: string[];
+    sucursales?: Sucursal[];
+}
+
+export default class Contacto {
+    id?: string;
     nombres: string;
     apellidos: string;
     telefonos: string[];
     emails: string[];
+    @Type(() => Sucursal)
+    sucursales?: Sucursal[];
 
-
-    constructor(nombres?: string, apellidos?: string, telefonos?: string[], emails?: string[]) {
-        super();
-        this.nombres = nombres? nombres : "";
-        this.apellidos = apellidos? apellidos : "";
-        this.telefonos = telefonos? telefonos : [];
-        this.emails = emails? emails : [];
+    constructor({id, nombres, apellidos, telefonos, emails, sucursales}: ContactoConstructor) {
+        this.id = id ? id : "";
+        this.nombres = nombres ? nombres : "";
+        this.apellidos = apellidos ? apellidos : "";
+        this.telefonos = telefonos ? telefonos : [];
+        this.emails = emails ? emails : [];
+        this.sucursales = sucursales ? sucursales : [];
     }
 }

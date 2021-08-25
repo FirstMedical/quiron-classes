@@ -1,22 +1,46 @@
 import Rol from "./Rol";
 import {Exclude, Type} from "class-transformer";
-import DBEntity from "./auxiliar/DBEntity";
 
-export default class Usuario extends DBEntity {
-    identificacion: string = "";
-    nombres: string = "";
-    apellidos: string = "";
-    fecha_nacimiento: Date = new Date();
+export interface UsuarioConstructor {
+    id?: string;
+    identificacion?: string;
+    nombres?: string;
+    apellidos?: string;
+    fecha_nacimiento?: Date;
+    password?: string;
+    cambiar_password?: boolean;
+    no_informacion?: boolean;
+    roles?: Rol[];
+    firma?: string;
+}
+
+export default class Usuario {
+    id?: string;
+    identificacion: string;
+    nombres: string;
+    apellidos: string;
+    fecha_nacimiento: Date;
     @Exclude()
-    password: string = "";
-    cambiar_password: boolean = false;
-    no_informacion: boolean = false;
+    password: string;
+    cambiar_password: boolean;
+    no_informacion: boolean;
     @Type(() => Rol)
-    roles: Rol[] = [];
-    firma: string = "";
+    roles: Rol[];
+    firma: string;
 
-    constructor(identificacion?: string, nombres?: string, apellidos?: string, password?: string, cambiar_password?: boolean, no_informacion?: boolean, roles?: Rol[], firma?: string, fecha_nacimiento?: Date) {
-        super();
+    constructor({
+                    id,
+                    identificacion,
+                    nombres,
+                    apellidos,
+                    fecha_nacimiento,
+                    password,
+                    cambiar_password,
+                    no_informacion,
+                    roles,
+                    firma
+                }: UsuarioConstructor) {
+        this.id = id ? id : "";
         this.identificacion = identificacion ? identificacion : "";
         this.nombres = nombres ? nombres : "";
         this.apellidos = apellidos ? apellidos : "";

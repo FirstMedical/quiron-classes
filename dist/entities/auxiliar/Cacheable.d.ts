@@ -1,4 +1,3 @@
-import DBEntity from "./DBEntity";
-export default class Cacheable extends DBEntity {
+export default class Cacheable {
 }
 //# sourceMappingURL=Cacheable.d.ts.map

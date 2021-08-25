@@ -2,7 +2,6 @@ import {Type} from "class-transformer";
 import {Campo} from "../Campo";
 import {Dependiente} from "../Dependiente";
 import {TiposElementos} from "../../index";
-import {CampoChequeo, CampoEntradaNumerica, CampoEntradaTexto, CampoSeleccion} from "./index";
 
 export class CampoSeccion extends Campo {
     @Type(()=>Campo)

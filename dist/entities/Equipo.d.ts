@@ -1,15 +1,29 @@
+/// <reference types="node" />
 import OrdenTrabajo from "./OrdenTrabajo";
-import DBEntity from "./auxiliar/DBEntity";
 import Cliente from "./Cliente";
-export default class Equipo extends DBEntity {
+export interface EquipoConstructor {
+    id?: string;
+    serial?: string;
+    marca?: string;
+    modelo?: string;
+    serie?: string;
+    codigo?: string;
+    garantia?: Buffer;
+    propietario?: Cliente;
+    ots?: OrdenTrabajo[];
+    atributos?: Record<string, any>;
+}
+export default class Equipo {
+    id: string;
     serial: string;
     marca: string;
     modelo: string;
     serie: string;
     codigo: string;
-    garantia: File | null;
-    cliente: Cliente;
+    garantia: Buffer | null;
+    propietario: Cliente;
     ots: OrdenTrabajo[];
-    constructor(serial?: string, marca?: string, modelo?: string, serie?: string, codigo?: string, garantia?: File | null, cliente?: Cliente, ots?: OrdenTrabajo[]);
+    atributos: Record<string, any>;
+    constructor({ id, serial, marca, modelo, serie, codigo, ots, garantia, propietario, atributos }: EquipoConstructor);
 }
 //# sourceMappingURL=Equipo.d.ts.map

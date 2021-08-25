@@ -1,10 +1,16 @@
 import {
     CampoChequeo,
     CampoEntradaNumerica,
-    CampoEntradaTexto, CampoFecha, CampoFirma, CampoImagen, CampoMediciones, CampoParametro,
+    CampoEntradaTexto,
+    CampoFecha,
+    CampoFirma,
+    CampoImagen,
+    CampoMediciones,
+    CampoParametro,
     CampoSeccion,
     CampoSeleccion,
-    CampoTabla, CampoTablaCompuesta
+    CampoTabla,
+    CampoTablaCompuesta
 } from "./elementos";
 import {TiposElementos} from "../index";
 import {Campo} from "./Campo";

@@ -1,16 +1,20 @@
-import DBEntity from "./auxiliar/DBEntity";
 import Usuario from "./Usuario";
 import {Permission} from "../auth";
 
-export default class Rol extends DBEntity {
-    identificador: string = "";
-    descripcion: string = "";
-    permisos: Record<string, Permission> = {};
+export interface RolConstructor {
+    identificador: string;
+    descripcion: string;
+    permisos: Record<string, Permission>;
+    usuarios: Usuario[];
+}
+
+export default class Rol {
+    identificador: string;
+    descripcion: string;
+    permisos: Record<string, Permission>;
     usuarios: Usuario[];
 
-
-    constructor(identificador?: string, descripcion?: string, permisos?: Record<string, Permission>, usuarios?: Usuario[]) {
-        super();
+    constructor({identificador, descripcion, permisos, usuarios}: RolConstructor) {
         this.identificador = identificador ? identificador : "";
         this.descripcion = descripcion ? descripcion : "";
         this.permisos = permisos ? permisos : {};
