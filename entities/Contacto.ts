@@ -3,6 +3,7 @@ import {Type} from "class-transformer";
 
 export interface ContactoConstructor {
     id?: string;
+    identificacion?: string;
     nombres?: string;
     apellidos?: string;
     telefonos?: string[];
@@ -12,15 +13,17 @@ export interface ContactoConstructor {
 
 export default class Contacto {
     id?: string;
+    identificacion: string;
     nombres: string;
     apellidos: string;
     telefonos: string[];
     emails: string[];
     @Type(() => Sucursal)
-    sucursales?: Sucursal[];
+    sucursales: Sucursal[];
 
-    constructor({id, nombres, apellidos, telefonos, emails, sucursales}: ContactoConstructor) {
+    constructor({id, identificacion, nombres, apellidos, telefonos, emails, sucursales}: ContactoConstructor) {
         this.id = id ? id : "";
+        this.identificacion = identificacion ? identificacion : "";
         this.nombres = nombres ? nombres : "";
         this.apellidos = apellidos ? apellidos : "";
         this.telefonos = telefonos ? telefonos : [];

@@ -16,8 +16,9 @@ var Sucursal_1 = __importDefault(require("./Sucursal"));
 var class_transformer_1 = require("class-transformer");
 var Contacto = /** @class */ (function () {
     function Contacto(_a) {
-        var id = _a.id, nombres = _a.nombres, apellidos = _a.apellidos, telefonos = _a.telefonos, emails = _a.emails, sucursales = _a.sucursales;
+        var id = _a.id, identificacion = _a.identificacion, nombres = _a.nombres, apellidos = _a.apellidos, telefonos = _a.telefonos, emails = _a.emails, sucursales = _a.sucursales;
         this.id = id ? id : "";
+        this.identificacion = identificacion ? identificacion : "";
         this.nombres = nombres ? nombres : "";
         this.apellidos = apellidos ? apellidos : "";
         this.telefonos = telefonos ? telefonos : [];
