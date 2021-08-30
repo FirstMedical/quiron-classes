@@ -2,6 +2,7 @@
 import OrdenTrabajo from "./OrdenTrabajo";
 import Cliente from "./Cliente";
 import Sucursal from "./Sucursal";
+import IndexableEntity from "./auxiliar/IndexableEntity";
 export interface EquipoConstructor {
     id?: string;
     serial?: string;
@@ -15,7 +16,7 @@ export interface EquipoConstructor {
     ots?: OrdenTrabajo[];
     atributos?: Record<string, any>;
 }
-export default class Equipo {
+export default class Equipo extends IndexableEntity {
     id: string;
     serial: string;
     marca: string;

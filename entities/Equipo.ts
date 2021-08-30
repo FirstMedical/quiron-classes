@@ -1,6 +1,7 @@
 import OrdenTrabajo from "./OrdenTrabajo";
 import Cliente from "./Cliente";
 import Sucursal from "./Sucursal";
+import IndexableEntity from "./auxiliar/IndexableEntity";
 
 export interface EquipoConstructor {
     id?: string;
@@ -16,7 +17,7 @@ export interface EquipoConstructor {
     atributos?: Record<string, any>;
 }
 
-export default class Equipo {
+export default class Equipo extends IndexableEntity {
     id: string;
     serial: string = "";
     marca: string = "";
@@ -42,6 +43,7 @@ export default class Equipo {
                     sucursal,
                     atributos
                 }: EquipoConstructor) {
+        super(["serial", "marca", "serie", "codigo"]);
         this.id = id ? id : "";
         this.serial = serial ? serial : "";
         this.marca = marca ? marca : "";
