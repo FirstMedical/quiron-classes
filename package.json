@@ -1,6 +1,6 @@
 {
   "name": "quiron_classes",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Modulo para las clases que se comparten entre backend y frontend del sistema Quiron de la empresa FirstMedical de colombia.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
