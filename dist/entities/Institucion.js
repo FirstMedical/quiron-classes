@@ -4,8 +4,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var Contacto_1 = __importDefault(require("./Contacto"));
-var Sucursal = /** @class */ (function () {
-    function Sucursal(_a) {
+var Institucion = /** @class */ (function () {
+    function Institucion(_a) {
         var id = _a.id, identificacion = _a.identificacion, latitud = _a.latitud, longitud = _a.longitud, direccion = _a.direccion, ciudad = _a.ciudad, departamento = _a.departamento, contactos = _a.contactos;
         this.id = id ? id : "";
         this.identificacion = identificacion ? identificacion : "";
@@ -18,7 +18,7 @@ var Sucursal = /** @class */ (function () {
             return new Contacto_1.default(element);
         }) : [];
     }
-    return Sucursal;
+    return Institucion;
 }());
-exports.default = Sucursal;
+exports.default = Institucion;
 //# sourceMappingURL=Institucion.js.map

@@ -9,7 +9,7 @@ export interface SucursalConstructor {
     departamento?: string;
     contactos?: Contacto[];
 }
-export default class Sucursal {
+export default class Institucion {
     id?: string;
     identificacion: string;
     latitud: number;

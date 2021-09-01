@@ -1,6 +1,6 @@
 import OrdenTrabajo from "./OrdenTrabajo";
 import Cliente from "./Cliente";
-import Sucursal from "./Sucursal";
+import Institucion from "./Institucion";
 import IndexableEntity from "./auxiliar/IndexableEntity";
 
 export interface EquipoConstructor {
@@ -12,7 +12,7 @@ export interface EquipoConstructor {
     codigo?: string;
     garantia?: Buffer;
     propietario?: Cliente;
-    sucursal?: Sucursal;
+    institucion?: Institucion;
     ots?: OrdenTrabajo[];
     atributos?: Record<string, any>;
 }
@@ -26,7 +26,7 @@ export default class Equipo extends IndexableEntity {
     codigo: string = "";
     garantia: Buffer;
     propietario: Cliente;
-    sucursal: Sucursal;
+    institucion: Institucion;
     ots: OrdenTrabajo[];
     atributos: Record<string, any>;
 
@@ -40,7 +40,7 @@ export default class Equipo extends IndexableEntity {
                     ots,
                     garantia,
                     propietario,
-                    sucursal,
+                    institucion,
                     atributos
                 }: EquipoConstructor) {
         super(["serial", "marca", "serie", "codigo"]);
@@ -52,7 +52,7 @@ export default class Equipo extends IndexableEntity {
         this.codigo = codigo ? codigo : "";
         this.garantia = garantia ? garantia : new Buffer("");
         this.propietario = propietario ? new Cliente(propietario) : new Cliente({});
-        this.sucursal = sucursal ? new Sucursal(sucursal) : new Sucursal({});
+        this.institucion = institucion ? new Institucion(institucion) : new Institucion({});
         this.ots = ots ? ots.map((element: any) => {
             return new OrdenTrabajo(element);
         }) : [];

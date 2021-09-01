@@ -1,4 +1,4 @@
-import Sucursal from "./Sucursal";
+import Institucion from "./Institucion";
 import Equipo from "./Equipo";
 import Contacto from "./Contacto";
 
@@ -6,8 +6,8 @@ export interface ClienteConstructor {
     id?: string;
     nombre?: string;
     identificacion?: string;
-    sucursales?: Sucursal[];
-    sucursalPrincipal?: Sucursal;
+    instituciones?: Institucion[];
+    institucionPrincipal?: Institucion;
     contactos?: Contacto[];
     equipos?: Equipo[];
 }
@@ -16,19 +16,19 @@ export default class Cliente {
     id?: string;
     nombre: string;
     identificacion: string;
-    sucursales: Sucursal[];
-    sucursalPrincipal: Sucursal;
+    instituciones: Institucion[];
+    institucionPrincipal: Institucion;
     contactos: Contacto[];
     equipos: Equipo[];
 
-    constructor({id, nombre, identificacion, sucursales, sucursalPrincipal, contactos, equipos}: ClienteConstructor) {
+    constructor({id, nombre, identificacion, instituciones, institucionPrincipal, contactos, equipos}: ClienteConstructor) {
         this.id = id ? id : "";
         this.nombre = nombre ? nombre : "";
         this.identificacion = identificacion ? identificacion : "";
-        this.sucursales = sucursales ? sucursales.map((element: any) => {
-            return new Sucursal(element);
+        this.instituciones = instituciones ? instituciones.map((element: any) => {
+            return new Institucion(element);
         }) : [];
-        this.sucursalPrincipal = sucursalPrincipal ? new Sucursal(sucursalPrincipal) : new Sucursal({});
+        this.institucionPrincipal = institucionPrincipal ? new Institucion(institucionPrincipal) : new Institucion({});
         this.contactos = contactos ? contactos.map((element: any) => {
             return new Contacto(element);
         }) : [];

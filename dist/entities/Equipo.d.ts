@@ -1,7 +1,7 @@
 /// <reference types="node" />
 import OrdenTrabajo from "./OrdenTrabajo";
 import Cliente from "./Cliente";
-import Sucursal from "./Sucursal";
+import Institucion from "./Institucion";
 import IndexableEntity from "./auxiliar/IndexableEntity";
 export interface EquipoConstructor {
     id?: string;
@@ -12,7 +12,7 @@ export interface EquipoConstructor {
     codigo?: string;
     garantia?: Buffer;
     propietario?: Cliente;
-    sucursal?: Sucursal;
+    institucion?: Institucion;
     ots?: OrdenTrabajo[];
     atributos?: Record<string, any>;
 }
@@ -25,9 +25,9 @@ export default class Equipo extends IndexableEntity {
     codigo: string;
     garantia: Buffer;
     propietario: Cliente;
-    sucursal: Sucursal;
+    institucion: Institucion;
     ots: OrdenTrabajo[];
     atributos: Record<string, any>;
-    constructor({ id, serial, marca, modelo, serie, codigo, ots, garantia, propietario, sucursal, atributos }: EquipoConstructor);
+    constructor({ id, serial, marca, modelo, serie, codigo, ots, garantia, propietario, institucion, atributos }: EquipoConstructor);
 }
 //# sourceMappingURL=Equipo.d.ts.map

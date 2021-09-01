@@ -5,7 +5,7 @@ import Rol from "./Rol";
 import Formulario from "./Formulario";
 import Plantilla from "./Plantilla";
 import Contacto from "./Contacto";
-import Sucursal from "./Sucursal";
+import Institucion from "./Institucion";
 import Cliente from "./Cliente";
-export { Equipo, Formulario, Rol, OrdenTrabajo, Usuario, Plantilla, Contacto, Sucursal, Cliente };
+export { Equipo, Formulario, Rol, OrdenTrabajo, Usuario, Plantilla, Contacto, Institucion, Cliente };
 //# sourceMappingURL=index.d.ts.map
