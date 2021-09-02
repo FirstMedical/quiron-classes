@@ -11,7 +11,7 @@ export interface EquipoConstructor {
     serie?: string;
     codigo?: string;
     garantia?: Buffer;
-    propietario?: Cliente;
+    responsable?: Cliente;
     institucion?: Institucion;
     ots?: OrdenTrabajo[];
     atributos?: Record<string, any>;
@@ -25,7 +25,7 @@ export default class Equipo extends IndexableEntity {
     serie: string = "";
     codigo: string = "";
     garantia: Buffer;
-    propietario: Cliente;
+    responsable: Cliente;
     institucion: Institucion;
     ots: OrdenTrabajo[];
     atributos: Record<string, any>;
@@ -39,7 +39,7 @@ export default class Equipo extends IndexableEntity {
                     codigo,
                     ots,
                     garantia,
-                    propietario,
+                    responsable,
                     institucion,
                     atributos
                 }: EquipoConstructor) {
@@ -51,7 +51,7 @@ export default class Equipo extends IndexableEntity {
         this.serie = serie ? serie : "";
         this.codigo = codigo ? codigo : "";
         this.garantia = garantia ? garantia : new Buffer("");
-        this.propietario = propietario ? new Cliente(propietario) : new Cliente({});
+        this.responsable = responsable ? new Cliente(responsable) : new Cliente({});
         this.institucion = institucion ? new Institucion(institucion) : new Institucion({});
         this.ots = ots ? ots.map((element: any) => {
             return new OrdenTrabajo(element);

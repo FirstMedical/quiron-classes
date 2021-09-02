@@ -23,7 +23,7 @@ var IndexableEntity_1 = __importDefault(require("./auxiliar/IndexableEntity"));
 var Equipo = /** @class */ (function (_super) {
     __extends(Equipo, _super);
     function Equipo(_a) {
-        var id = _a.id, serial = _a.serial, marca = _a.marca, modelo = _a.modelo, serie = _a.serie, codigo = _a.codigo, ots = _a.ots, garantia = _a.garantia, propietario = _a.propietario, institucion = _a.institucion, atributos = _a.atributos;
+        var id = _a.id, serial = _a.serial, marca = _a.marca, modelo = _a.modelo, serie = _a.serie, codigo = _a.codigo, ots = _a.ots, garantia = _a.garantia, responsable = _a.responsable, institucion = _a.institucion, atributos = _a.atributos;
         var _this = _super.call(this, ["serial", "marca", "serie", "codigo"]) || this;
         _this.serial = "";
         _this.marca = "";
@@ -37,7 +37,7 @@ var Equipo = /** @class */ (function (_super) {
         _this.serie = serie ? serie : "";
         _this.codigo = codigo ? codigo : "";
         _this.garantia = garantia ? garantia : new Buffer("");
-        _this.propietario = propietario ? new Cliente_1.default(propietario) : new Cliente_1.default({});
+        _this.responsable = responsable ? new Cliente_1.default(responsable) : new Cliente_1.default({});
         _this.institucion = institucion ? new Institucion_1.default(institucion) : new Institucion_1.default({});
         _this.ots = ots ? ots.map(function (element) {
             return new OrdenTrabajo_1.default(element);

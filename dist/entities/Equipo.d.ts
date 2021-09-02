@@ -11,7 +11,7 @@ export interface EquipoConstructor {
     serie?: string;
     codigo?: string;
     garantia?: Buffer;
-    propietario?: Cliente;
+    responsable?: Cliente;
     institucion?: Institucion;
     ots?: OrdenTrabajo[];
     atributos?: Record<string, any>;
@@ -24,10 +24,10 @@ export default class Equipo extends IndexableEntity {
     serie: string;
     codigo: string;
     garantia: Buffer;
-    propietario: Cliente;
+    responsable: Cliente;
     institucion: Institucion;
     ots: OrdenTrabajo[];
     atributos: Record<string, any>;
-    constructor({ id, serial, marca, modelo, serie, codigo, ots, garantia, propietario, institucion, atributos }: EquipoConstructor);
+    constructor({ id, serial, marca, modelo, serie, codigo, ots, garantia, responsable, institucion, atributos }: EquipoConstructor);
 }
 //# sourceMappingURL=Equipo.d.ts.map
