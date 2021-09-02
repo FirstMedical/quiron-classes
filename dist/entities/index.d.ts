@@ -7,5 +7,6 @@ import Plantilla from "./Plantilla";
 import Contacto from "./Contacto";
 import Institucion from "./Institucion";
 import Cliente from "./Cliente";
+export * from "./atributos";
 export { Equipo, Formulario, Rol, OrdenTrabajo, Usuario, Plantilla, Contacto, Institucion, Cliente };
 //# sourceMappingURL=index.d.ts.map

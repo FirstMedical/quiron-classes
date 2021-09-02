@@ -8,6 +8,8 @@ import Contacto from "./Contacto";
 import Institucion from "./Institucion";
 import Cliente from "./Cliente";
 
+export * from "./atributos";
+
 export {
     Equipo,
     Formulario,
