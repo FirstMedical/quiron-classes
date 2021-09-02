@@ -1,7 +1,8 @@
 export declare enum TipoReferencia {
     "PLANTILLA" = "Plantilla",
     "EQUIPO" = "Equipo",
-    "CLIENTE" = "Cliente"
+    "CLIENTE" = "Cliente",
+    "SERVICIO" = "Servicio"
 }
 export declare class Referencia {
     activated: boolean;
