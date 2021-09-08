@@ -19,7 +19,11 @@ var index_1 = require("../../index");
 var CampoEntradaNumerica = /** @class */ (function (_super) {
     __extends(CampoEntradaNumerica, _super);
     function CampoEntradaNumerica(etiqueta, dependiente) {
-        return _super.call(this, index_1.TiposElementos['entrada-numerica'], etiqueta, dependiente) || this;
+        var _this = _super.call(this, index_1.TiposElementos['entrada-numerica'], etiqueta, dependiente) || this;
+        _this.rango = false;
+        _this.rangoInferior = 0;
+        _this.rangoSuperior = 0;
+        return _this;
     }
     return CampoEntradaNumerica;
 }(Campo_1.Campo));
