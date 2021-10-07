@@ -24,6 +24,9 @@ var CampoMediciones = /** @class */ (function (_super) {
         _this.medidas = [];
         _this.medidasMinimas = 0;
         _this.descriptorInstrucciones = "Dial";
+        _this.medidasMaximas = 0;
+        _this.necesitaRango = true;
+        _this.necesitaGrafica = false;
         return _this;
     }
     CampoMediciones.prototype.addMedida = function (medida) {

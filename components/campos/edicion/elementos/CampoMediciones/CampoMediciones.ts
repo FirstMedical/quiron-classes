@@ -9,6 +9,10 @@ export class CampoMediciones extends Campo {
     etiquetaMedida: string;
     medidasMinimas: number;
     descriptorInstrucciones: string;
+    medidasMaximas: number;
+    necesitaRango: boolean;
+    necesitaGrafica: boolean;
+
 
     constructor(etiqueta?: string, dependiente?: Dependiente, etiquetaMedida?: string) {
         super(TiposElementos.mediciones, etiqueta, dependiente);
@@ -16,6 +20,9 @@ export class CampoMediciones extends Campo {
         this.medidas = [];
         this.medidasMinimas = 0;
         this.descriptorInstrucciones = "Dial";
+        this.medidasMaximas = 0;
+        this.necesitaRango = true;
+        this.necesitaGrafica = false;
     }
 
     public addMedida(medida: Medida){

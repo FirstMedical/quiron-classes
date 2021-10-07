@@ -6,6 +6,9 @@ export declare class CampoMediciones extends Campo {
     etiquetaMedida: string;
     medidasMinimas: number;
     descriptorInstrucciones: string;
+    medidasMaximas: number;
+    necesitaRango: boolean;
+    necesitaGrafica: boolean;
     constructor(etiqueta?: string, dependiente?: Dependiente, etiquetaMedida?: string);
     addMedida(medida: Medida): void;
     setMedidasMinimas(value: number): void;
