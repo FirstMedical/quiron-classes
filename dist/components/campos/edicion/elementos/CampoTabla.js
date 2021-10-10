@@ -21,6 +21,8 @@ var CampoTabla = /** @class */ (function (_super) {
     function CampoTabla(etiqueta, dependiente, columnas) {
         var _this = _super.call(this, index_1.TiposElementos.tabla, etiqueta, dependiente) || this;
         _this.columnas = columnas ? columnas : [];
+        _this.minFilas = 0;
+        _this.maxFilas = 0;
         return _this;
     }
     return CampoTabla;
